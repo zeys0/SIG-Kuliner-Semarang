@@ -31,6 +31,8 @@ folium.GeoJson(
     },
 ).add_to(preview_map)
 
+preview_map.save("static/preview/preview_map.html")
+
 
 @app.route("/")
 def hello():
@@ -45,7 +47,7 @@ def map():
         lat = float(request.form["lat"])
         lon = float(request.form["lon"])
         img_url = request.form["img_url"]
-        price_range = request.form["desc"]
+        price_range = request.form["price_range"]
         desc = request.form["desc"]
 
         new_place = Place(
@@ -61,6 +63,20 @@ def map():
         flash("Berhasil Menambah data")
         return redirect(url_for("map"))
 
+    marker_cluster = MarkerCluster().add_to(preview_map)
+    places = Place.query.all()
+    for place in places:
+        popup_content = f"""
+        <b>{place.name}</b><br>
+        {place.description}<br>
+        <img src='{place.image_url}' width='200'><br>
+        Rating: ⭐⭐⭐⭐⭐ 5/5<br>
+        Harga: {place.price_range}
+        """
+        folium.Marker([place.lat, place.lon], popup=popup_content).add_to(
+            marker_cluster
+        )
+    preview_map.save("static/preview/preview_map.html")
     return render_template("main/map.html", enable_scroll_nav=False)
 
 

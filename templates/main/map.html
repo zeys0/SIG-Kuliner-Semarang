@@ -22,7 +22,7 @@ Map
         </div>
     </div>
     <div id="map-container">
-        <iframe src="{{ url_for('static', filename='preview/preview_map.html') }}" width="100%" height="500">
+        <iframe src="{{ url_for('static', filename='preview/preview_map.html') }}" width="100%" height="500"></iframe>
     </div>
 
     {% with msg = get_flashed_messages() %}
@@ -87,8 +87,8 @@ Map
                             <label for="floatingTextarea2">Harga</label>
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" name="desc" id="desc" style="border-radius: 13px;"
-                                placeholder="Describe" required /></textarea>
+                            <textarea class="form-control" type="text" name="desc" id="desc"
+                                style="border-radius: 13px;" placeholder="Describe" required /></textarea>
                         </div>
 
 
