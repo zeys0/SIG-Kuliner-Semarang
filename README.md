@@ -5,20 +5,20 @@
    git clone https://github.com/zeys0/SIG-Kuliner-Semarang.git
    ```
    
-3. Masuk ke dalam file yg telah di clone
+2. Masuk ke dalam file yg telah di clone
    
-5. Buat folder venv dengan perintah pada powershell
+3. Buat folder venv dengan perintah seperti di bawah pada powershell
    ```
    python -m venv venv
    ```
    
-7. Lalu ketikkan perintah
+4. Lalu ketikkan perintah pada powershell
    ```
    .\venv\scripts\activate
    ```
    
-9. jika terjadi error execution policy, konfiguarsi dlu pada setting json dengan perintah "ctrl + p" lalu ketik ">" dan cari file setting json lalu copy code berikut didalam setting json
-   (Jika tidak error skip bagian ini)
+5. jika terjadi error execution policy, konfiguarsi dlu pada setting json dengan perintah "ctrl + p" lalu ketik ">" dan cari file setting json lalu copy code berikut didalam setting json
+   (Jika tidak error skip bagian 5 dan 6)
    ```"terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
@@ -30,11 +30,12 @@
         }
     }
    ```
+6. Setelah itu kembali ke powershell dan ketikkan perintah pada nomor 6
    
-11. Install library berikut dengan perintah
+7. Lalu Install library berikut dengan perintah
    ```
    pip install flask folium flask-migrate flask-sqlalchemy
    ```
     
-12. Run app.py
+8. Run app.py
    
