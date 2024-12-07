@@ -1,8 +1,4 @@
-
-
 # CARA MENJALANKAN PROJECT
-
-
 
 1. Clone project di directory yang di pilih dengan perintah "git clone https://github.com/zeys0/SIG-Kuliner-Semarang.git" atau bisa manual
    
