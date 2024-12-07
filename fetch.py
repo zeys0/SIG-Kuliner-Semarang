@@ -1,13 +1,9 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-
 # Ini merupakan source code untuk fetch data restoran dari koordinat semarang menggunakan api google maps
 # 1. Untuk menggunakannya pastikan sudah mempunyai key api dari google maps, jika belum daftar terlebih dahulu
 # 2. Install library dengan perintah "pip install googlemaps, python-dotenv"
 # 3. buat file ".env" dengan directory yang sama pada app.py
-# 4. Pindahkan seluruh source code  di bawah pada app.py
+# 4. Masukkan key api yang ada pada file .env dengan sintaks seperti ini "GOOGLE_API_KEY=masukkan api key di sini"
+# 5. Pindahkan seluruh source code  di bawah pada app.py
 
 
 import googlemaps
@@ -66,7 +62,3 @@ def fetch_google_maps():
     db.session.commit()
     flash("Data restoran dari Google Maps berhasil ditambahkan ke database.")
     return redirect(url_for("map"))
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
