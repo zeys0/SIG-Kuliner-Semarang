@@ -19,6 +19,8 @@ Map
             <h2>Sistem Informasi Geografi</h2>
             <div type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#input-restoran">
                 Add Location</div>
+            <div type="submit" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#delete-restoran">
+                Delete Location</div>
         </div>
     </div>
     <div id="map-container">
@@ -51,8 +53,9 @@ Map
         });
     </script>
     {% endfor %}
-    {% endif %} {% endwith %} <div class="modal fade" id="input-restoran" tabindex="-1"
-        aria-labelledby="exampleModalLabel" aria-hidden="true">
+    {% endif %} {% endwith %}
+    <!-- Modal add datas -->
+    <div class="modal fade" id="input-restoran" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -102,7 +105,37 @@ Map
             </div>
         </div>
     </div>
+    <!-- End modal add datas -->
 
+
+    <!-- Modal delete data -->
+    <div class="modal fade" id="delete-restoran" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Delete Location</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="{{ url_for('delete_place') }}" method="POST">
+                        <div class="mb-3">
+                            <label for="place_id" class="form-label">Select Place</label>
+                            <select name="place_id" id="place_id" class="form-select" required>
+                                <option value="" disabled selected>Select a place to delete</option>
+                                {% for place in places %}
+                                <option value="{{ place.id }}">{{ place.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </section>
