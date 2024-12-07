@@ -30,7 +30,7 @@
         }
     }
    ```
-6. Setelah itu kembali ke powershell dan ketikkan perintah pada nomor 6
+6. Setelah itu kembali ke powershell dan ketikkan perintah pada nomor 4
    
 7. Lalu Install library berikut dengan perintah
    ```
@@ -38,4 +38,8 @@
    ```
     
 8. Run app.py
+
+   https://github.com/user-attachments/assets/5b07f6d6-89a6-41f5-b7e1-2ee0b47ba7a0
+
+
    
