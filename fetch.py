@@ -1,6 +1,6 @@
 # Ini merupakan source code untuk fetch data restoran dari koordinat semarang menggunakan api google maps
 # 1. Untuk menggunakannya pastikan sudah mempunyai key api dari google maps, jika belum daftar terlebih dahulu
-# 2. Install library dengan perintah "pip install googlemaps, python-dotenv"
+# 2. Install library dengan perintah "pip install googlemaps python-dotenv"
 # 3. buat file ".env" dengan directory yang sama pada app.py
 # 4. Masukkan key api yang ada pada file .env dengan sintaks seperti ini "GOOGLE_API_KEY=masukkan api key di sini"
 # 5. Pindahkan seluruh source code  di bawah pada app.py
