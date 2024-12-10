@@ -5,7 +5,7 @@
    git clone https://github.com/zeys0/SIG-Kuliner-Semarang.git
    ```
    
-2. Masuk ke dalam file yg telah di clone
+2. Masuk ke dalam file yg telah di clone menggunakan VSC
    
 3. Buat folder venv dengan perintah seperti di bawah pada powershell
    ```
@@ -17,7 +17,7 @@
    .\venv\scripts\activate
    ```
    
-5. jika terjadi error execution policy, konfiguarsi dlu pada setting json dengan perintah "ctrl + p" lalu ketik ">" dan cari file setting json lalu copy code berikut didalam setting json
+5. jika terjadi error execution policy Pada VSC, konfiguarsi dlu pada setting json dengan perintah "ctrl + p" lalu ketik ">" dan cari file setting json lalu copy code berikut didalam setting json
    (Jika tidak error skip bagian 5 dan 6)
    ```"terminal.integrated.profiles.windows": {
         "PowerShell": {
