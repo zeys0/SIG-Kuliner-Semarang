@@ -123,7 +123,7 @@ Map
                             <select name="place_id" id="place_id" class="form-select" required>
                                 <option value="" disabled selected>Select a place to delete</option>
                                 {% for place in places %}
-                                <option value="{{ place.id }}">{{ place.name }}</option>
+                                <option value="{{ place['_id'] }}">{{ place['name'] }}</option>
                                 {% endfor %}
                             </select>
                         </div>
@@ -136,6 +136,7 @@ Map
             </div>
         </div>
     </div>
+
 
 
 </section>
