@@ -7,52 +7,51 @@ Home
 
 
 <!-- HEADER -->
-<header id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
 
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-      aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<header class="position-relative" id="jumbotron">
+  <div class="container py-5 d-flex flex-column flex-lg-row align-items-center justify-content-between h-100 ">
+    <!-- Text Section -->
+    <div class="text-center text-lg-start">
+      <h1 class="display-3 fw-bold mb-3 gradient-text">Sistem Pemetaan Kuliner Semarang</h1>
+      <p class="lead mb-4">
+        Temukan informasi terkini tentang tempat kuliner di Semarang, termasuk lokasi, menu,
+        dan rekomendasi terbaik untuk pengalaman makan Anda.
+      </p>
+
+      <style>
+
+      </style>
+
+
+      <!-- Search Bar Section -->
+      <div class="d-flex gap-3 mb-4">
+        <div class="input-group justify-content-center justify-content-lg-start" style="max-width: 400px;">
+          <input type="text" id="search-bar" class="form-control form-control-sm"
+            placeholder="Cari tempat kuliner di Semarang..." />
+          <div class="input-group-append">
+            <button id="search-button" class="btn btn-primary px-3 shadow" style="height: 100%;">Cari</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <!-- Image Section (Added to balance the layout) -->
+    <div class="d-none d-lg-block">
+      <img src="{{ url_for('static', filename='images/img1.png') }}" height="900px" width="900px" alt="Fasilitas Umum"
+        class="img-fluid floating-img" />
+    </div>
   </div>
 
-
-
-  <div class="carousel-inner mb-4">
-    <div class="carousel-item active">
-      <img src="{{ url_for('static', filename='images/header1.jpg') }}" class="d-block w-100" alt="...">
-      <div class="carousel-caption-first d-none d-md-block" style="margin-left: 15px;">
-        <h1 style="font-size: 5.5em; font-family: 'Monotype Corsiva', cursive;">Sistem Informasi Geografi</h1>
-        <p>Kuliner di Semarang</p>
-        <p>Lihat preview map di bawah ini atau langsung menuju halaman map untuk melihat lebih banyak detail.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-
-      <img src="{{ url_for('static', filename='images/header2.jpg') }}" class="d-block w-100" alt="...">
-      <div class="carousel-caption-first d-none d-md-block" style="margin-left: 15px;">
-        <h1 style="font-size: 5.5em; font-family: 'Monotype Corsiva', cursive;">Sistem Informasi Geografi</h1>
-        <p>Kuliner di Semarang</p>
-      </div>
-
-    </div>
-    <div class="carousel-item">
-      <img src="{{ url_for('static', filename='images/header3.jpg') }}" class="d-block w-100" alt="...">
-      <div class="carousel-caption-first d-none d-md-block" style="margin-left: 15px;">
-        <h1 style="font-size: 5.5em; font-family: 'Monotype Corsiva', cursive;">Sistem Informasi Geografi</h1>
-        <p>Kuliner di Semarang</p>
-      </div>
-    </div>
+  <!-- Wave SVG -->
+  <div class="position-absolute bottom-0 start-0 w-100">
+    <svg class="w-100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
+        fill="white"></path>
+    </svg>
   </div>
-
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </header>
 <!-- END HEADER -->
 

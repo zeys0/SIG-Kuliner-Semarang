@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_dd0ace61dc45d883980cc72a46449ed2 {
+                #map_9da768abd5bf97790418e3afc4b9c90a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -42,14 +42,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_dd0ace61dc45d883980cc72a46449ed2" ></div>
+            <div class="folium-map" id="map_9da768abd5bf97790418e3afc4b9c90a" ></div>
         
 </body>
 <script>
     
     
-            var map_dd0ace61dc45d883980cc72a46449ed2 = L.map(
-                "map_dd0ace61dc45d883980cc72a46449ed2",
+            var map_9da768abd5bf97790418e3afc4b9c90a = L.map(
+                "map_9da768abd5bf97790418e3afc4b9c90a",
                 {
                     center: [-7.011374, 110.395078],
                     crs: L.CRS.EPSG3857,
@@ -63,1858 +63,552 @@
 
         
     
-            var tile_layer_cee821116bbd3a59e8894333231db18f = L.tileLayer(
+            var tile_layer_b63a68ad8377408643494a85e30e7c94 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_cee821116bbd3a59e8894333231db18f.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-        function geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd_styler(feature) {
+        function geo_json_78a71a5f1eedc892d718babf8538a724_styler(feature) {
             switch(feature.properties.mhid) {
                 default:
                     return {"color": "black", "fillOpacity": 0.5, "weight": 2};
             }
         }
 
-        function geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd_onEachFeature(feature, layer) {
+        function geo_json_78a71a5f1eedc892d718babf8538a724_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd = L.geoJson(null, {
-                onEachFeature: geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd_onEachFeature,
+        var geo_json_78a71a5f1eedc892d718babf8538a724 = L.geoJson(null, {
+                onEachFeature: geo_json_78a71a5f1eedc892d718babf8538a724_onEachFeature,
             
-                style: geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd_styler,
+                style: geo_json_78a71a5f1eedc892d718babf8538a724_styler,
         });
 
-        function geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd_add (data) {
-            geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd
+        function geo_json_78a71a5f1eedc892d718babf8538a724_add (data) {
+            geo_json_78a71a5f1eedc892d718babf8538a724
                 .addData(data);
         }
-            geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd_add({"features": [{"geometry": {"coordinates": [[[[110.4632125, -6.9315276], [110.466568, -6.934329], [110.4693375, -6.9388618], [110.4734039, -6.9420852], [110.4809418, -6.945363], [110.4863622, -6.9467563], [110.4922016, -6.9474909], [110.4901123, -6.9534726], [110.4909768, -6.9552195], [110.5010042, -6.9526219], [110.5028076, -6.9588666], [110.5011673, -6.9627976], [110.5028512, -6.9690027], [110.5048979, -6.9703826], [110.5053578, -6.975974], [110.5037348, -6.9790292], [110.5021958, -6.9792243], [110.5013411, -6.9849819], [110.5029831, -6.9858131], [110.5012078, -6.9922342], [110.4995602, -6.9922325], [110.4969854, -6.9951205], [110.4954945, -6.9989332], [110.4933639, -6.9996937], [110.4903852, -7.0043479], [110.4985392, -7.0076489], [110.503883, -7.0107245], [110.5028996, -7.0125701], [110.5037495, -7.0148595], [110.5007908, -7.0169853], [110.4994863, -7.0163984], [110.4978302, -7.0207875], [110.4986358, -7.022737], [110.4979926, -7.0271221], [110.4958403, -7.0274461], [110.4940414, -7.0302357], [110.4874131, -7.0290052], [110.4874354, -7.0310586], [110.4851729, -7.0379976], [110.4839085, -7.0398797], [110.4825222, -7.0453547], [110.4829155, -7.0483196], [110.4853058, -7.0495872], [110.4859619, -7.0522008], [110.4811706, -7.0530162], [110.4812622, -7.0567145], [110.4855194, -7.055109], [110.4866791, -7.0501442], [110.4909973, -7.0552563], [110.4909363, -7.0593891], [110.4921341, -7.0609589], [110.4961929, -7.0635414], [110.498848, -7.0631184], [110.4999313, -7.0659642], [110.4974823, -7.0693474], [110.4912338, -7.0741605], [110.4892349, -7.0773167], [110.4846802, -7.0812816], [110.4775848, -7.0854339], [110.4769134, -7.0837836], [110.4678269, -7.0793528], [110.4648971, -7.0800209], [110.4618759, -7.079186], [110.4542994, -7.0788178], [110.4535447, -7.087071], [110.4519213, -7.0900733], [110.4494782, -7.0891137], [110.4463176, -7.0907338], [110.4409256, -7.0912666], [110.4390793, -7.0906377], [110.4357147, -7.0915947], [110.4286804, -7.0920482], [110.4230957, -7.0962877], [110.4219589, -7.0981507], [110.421875, -7.1031627], [110.4191589, -7.1050448], [110.4161912, -7.1083688], [110.412925, -7.1082446], [110.4098618, -7.1100918], [110.4079054, -7.109056], [110.4029727, -7.1124001], [110.4015662, -7.1097581], [110.3956709, -7.1144322], [110.3899337, -7.1124762], [110.3842316, -7.1140637], [110.3817119, -7.1106878], [110.3774872, -7.1104345], [110.3764104, -7.1073032], [110.3783214, -7.1044095], [110.3784713, -7.1005792], [110.374971, -7.0964285], [110.3737325, -7.0984956], [110.3728547, -7.1027075], [110.3737061, -7.1048165], [110.3710791, -7.1075076], [110.3648526, -7.1063708], [110.3635958, -7.1047161], [110.3600438, -7.1047119], [110.3561247, -7.1065657], [110.3544729, -7.1056258], [110.3532746, -7.1022704], [110.3519771, -7.1018215], [110.35111, -7.0976506], [110.3474426, -7.0902729], [110.3478561, -7.0885164], [110.3443394, -7.0877912], [110.3427031, -7.0905802], [110.3448493, -7.097032], [110.3428421, -7.0994544], [110.3387375, -7.101809], [110.3374329, -7.1040849], [110.3327026, -7.1035194], [110.3325653, -7.0997367], [110.3284917, -7.1022006], [110.324585, -7.1014414], [110.3170478, -7.1057778], [110.3159536, -7.1047418], [110.3124619, -7.1055298], [110.3102493, -7.1030202], [110.3050776, -7.1014118], [110.3033295, -7.0970611], [110.3037121, -7.0921972], [110.3051148, -7.0896025], [110.3044205, -7.0834651], [110.302742, -7.0811324], [110.3029175, -7.0768638], [110.3007355, -7.0723719], [110.3011551, -7.0680847], [110.2991486, -7.0674066], [110.3006897, -7.0645289], [110.2986755, -7.0616846], [110.2953415, -7.0593381], [110.2937393, -7.0563841], [110.292717, -7.0520158], [110.2874298, -7.0506], [110.2853546, -7.0518965], [110.2831574, -7.049366], [110.2810974, -7.0500688], [110.2748762, -7.0487248], [110.2736737, -7.0502477], [110.2709725, -7.0507127], [110.2691269, -7.0465088], [110.2720204, -7.0396363], [110.2723382, -7.0365871], [110.2738031, -7.0341392], [110.2724762, -7.0320476], [110.2715501, -7.0274693], [110.2722112, -7.0261901], [110.2708879, -7.022825], [110.2748566, -7.0193424], [110.2733689, -7.015007], [110.2762375, -7.0118217], [110.2839833, -7.0127257], [110.2857895, -7.0100446], [110.2852707, -7.0081853], [110.2825241, -7.0068459], [110.2828293, -7.0052004], [110.2810898, -7.0028562], [110.2809296, -6.9989075], [110.2837982, -6.9969525], [110.2876434, -6.9970789], [110.2863388, -6.993833], [110.2828561, -6.9905634], [110.2823549, -6.9863047], [110.2845302, -6.9865122], [110.2852323, -6.9828281], [110.2931923, -6.9821523], [110.2939645, -6.9788668], [110.2895487, -6.9713344], [110.2859598, -6.9690757], [110.2881133, -6.965417], [110.2957306, -6.9684424], [110.2997209, -6.959075], [110.2932798, -6.9569753], [110.2918701, -6.9554691], [110.2917099, -6.9501958], [110.2978275, -6.9435949], [110.2991931, -6.9410057], [110.3016334, -6.9395019], [110.3048635, -6.938814], [110.3059173, -6.9375037], [110.3141519, -6.9376523], [110.31993, -6.93896], [110.3279, -6.94269], [110.34033, -6.94802], [110.35558, -6.9527], [110.35727, -6.95393], [110.36237, -6.95447], [110.36631, -6.95361], [110.36897, -6.95512], [110.37433, -6.95413], [110.3768, -6.95471], [110.38275, -6.9547], [110.3769353, -6.9517116], [110.376772, -6.95089], [110.3866795, -6.9497939], [110.3872411, -6.9519246], [110.3906, -6.95198], [110.38932, -6.94783], [110.3932036, -6.9456005], [110.3946301, -6.9479533], [110.3980095, -6.9475748], [110.39898, -6.94978], [110.40145, -6.95148], [110.40538, -6.95084], [110.4058124, -6.9487558], [110.4090185, -6.9471866], [110.4155391, -6.9459766], [110.41943, -6.94433], [110.4195, -6.95092], [110.42338, -6.94966], [110.423932, -6.946902], [110.4242771, -6.9387653], [110.4270177, -6.9382434], [110.4270013, -6.9410459], [110.4291255, -6.9444322], [110.4332015, -6.9439807], [110.4343281, -6.9478445], [110.436241, -6.945758], [110.4367824, -6.9433436], [110.4389525, -6.9422346], [110.4396944, -6.9452976], [110.4417421, -6.9463812], [110.443663, -6.9411591], [110.4429549, -6.9382719], [110.4474383, -6.935793], [110.4487316, -6.9375103], [110.45666, -6.93539], [110.45951, -6.9328], [110.4632125, -6.9315276]]]], "type": "MultiPolygon"}, "properties": {"alt_name": "KOTA SEMARANG", "kabkot_id": "74", "latitude": -7.03333, "longitude": 110.38333, "mhid": "1332:226", "name": "KOTA SEMARANG", "prov_name": "JAWA TENGAH", "province_id": "33", "sample_value": 859}, "type": "Feature"}], "type": "FeatureCollection"});
+            geo_json_78a71a5f1eedc892d718babf8538a724_add({"features": [{"geometry": {"coordinates": [[[[110.4632125, -6.9315276], [110.466568, -6.934329], [110.4693375, -6.9388618], [110.4734039, -6.9420852], [110.4809418, -6.945363], [110.4863622, -6.9467563], [110.4922016, -6.9474909], [110.4901123, -6.9534726], [110.4909768, -6.9552195], [110.5010042, -6.9526219], [110.5028076, -6.9588666], [110.5011673, -6.9627976], [110.5028512, -6.9690027], [110.5048979, -6.9703826], [110.5053578, -6.975974], [110.5037348, -6.9790292], [110.5021958, -6.9792243], [110.5013411, -6.9849819], [110.5029831, -6.9858131], [110.5012078, -6.9922342], [110.4995602, -6.9922325], [110.4969854, -6.9951205], [110.4954945, -6.9989332], [110.4933639, -6.9996937], [110.4903852, -7.0043479], [110.4985392, -7.0076489], [110.503883, -7.0107245], [110.5028996, -7.0125701], [110.5037495, -7.0148595], [110.5007908, -7.0169853], [110.4994863, -7.0163984], [110.4978302, -7.0207875], [110.4986358, -7.022737], [110.4979926, -7.0271221], [110.4958403, -7.0274461], [110.4940414, -7.0302357], [110.4874131, -7.0290052], [110.4874354, -7.0310586], [110.4851729, -7.0379976], [110.4839085, -7.0398797], [110.4825222, -7.0453547], [110.4829155, -7.0483196], [110.4853058, -7.0495872], [110.4859619, -7.0522008], [110.4811706, -7.0530162], [110.4812622, -7.0567145], [110.4855194, -7.055109], [110.4866791, -7.0501442], [110.4909973, -7.0552563], [110.4909363, -7.0593891], [110.4921341, -7.0609589], [110.4961929, -7.0635414], [110.498848, -7.0631184], [110.4999313, -7.0659642], [110.4974823, -7.0693474], [110.4912338, -7.0741605], [110.4892349, -7.0773167], [110.4846802, -7.0812816], [110.4775848, -7.0854339], [110.4769134, -7.0837836], [110.4678269, -7.0793528], [110.4648971, -7.0800209], [110.4618759, -7.079186], [110.4542994, -7.0788178], [110.4535447, -7.087071], [110.4519213, -7.0900733], [110.4494782, -7.0891137], [110.4463176, -7.0907338], [110.4409256, -7.0912666], [110.4390793, -7.0906377], [110.4357147, -7.0915947], [110.4286804, -7.0920482], [110.4230957, -7.0962877], [110.4219589, -7.0981507], [110.421875, -7.1031627], [110.4191589, -7.1050448], [110.4161912, -7.1083688], [110.412925, -7.1082446], [110.4098618, -7.1100918], [110.4079054, -7.109056], [110.4029727, -7.1124001], [110.4015662, -7.1097581], [110.3956709, -7.1144322], [110.3899337, -7.1124762], [110.3842316, -7.1140637], [110.3817119, -7.1106878], [110.3774872, -7.1104345], [110.3764104, -7.1073032], [110.3783214, -7.1044095], [110.3784713, -7.1005792], [110.374971, -7.0964285], [110.3737325, -7.0984956], [110.3728547, -7.1027075], [110.3737061, -7.1048165], [110.3710791, -7.1075076], [110.3648526, -7.1063708], [110.3635958, -7.1047161], [110.3600438, -7.1047119], [110.3561247, -7.1065657], [110.3544729, -7.1056258], [110.3532746, -7.1022704], [110.3519771, -7.1018215], [110.35111, -7.0976506], [110.3474426, -7.0902729], [110.3478561, -7.0885164], [110.3443394, -7.0877912], [110.3427031, -7.0905802], [110.3448493, -7.097032], [110.3428421, -7.0994544], [110.3387375, -7.101809], [110.3374329, -7.1040849], [110.3327026, -7.1035194], [110.3325653, -7.0997367], [110.3284917, -7.1022006], [110.324585, -7.1014414], [110.3170478, -7.1057778], [110.3159536, -7.1047418], [110.3124619, -7.1055298], [110.3102493, -7.1030202], [110.3050776, -7.1014118], [110.3033295, -7.0970611], [110.3037121, -7.0921972], [110.3051148, -7.0896025], [110.3044205, -7.0834651], [110.302742, -7.0811324], [110.3029175, -7.0768638], [110.3007355, -7.0723719], [110.3011551, -7.0680847], [110.2991486, -7.0674066], [110.3006897, -7.0645289], [110.2986755, -7.0616846], [110.2953415, -7.0593381], [110.2937393, -7.0563841], [110.292717, -7.0520158], [110.2874298, -7.0506], [110.2853546, -7.0518965], [110.2831574, -7.049366], [110.2810974, -7.0500688], [110.2748762, -7.0487248], [110.2736737, -7.0502477], [110.2709725, -7.0507127], [110.2691269, -7.0465088], [110.2720204, -7.0396363], [110.2723382, -7.0365871], [110.2738031, -7.0341392], [110.2724762, -7.0320476], [110.2715501, -7.0274693], [110.2722112, -7.0261901], [110.2708879, -7.022825], [110.2748566, -7.0193424], [110.2733689, -7.015007], [110.2762375, -7.0118217], [110.2839833, -7.0127257], [110.2857895, -7.0100446], [110.2852707, -7.0081853], [110.2825241, -7.0068459], [110.2828293, -7.0052004], [110.2810898, -7.0028562], [110.2809296, -6.9989075], [110.2837982, -6.9969525], [110.2876434, -6.9970789], [110.2863388, -6.993833], [110.2828561, -6.9905634], [110.2823549, -6.9863047], [110.2845302, -6.9865122], [110.2852323, -6.9828281], [110.2931923, -6.9821523], [110.2939645, -6.9788668], [110.2895487, -6.9713344], [110.2859598, -6.9690757], [110.2881133, -6.965417], [110.2957306, -6.9684424], [110.2997209, -6.959075], [110.2932798, -6.9569753], [110.2918701, -6.9554691], [110.2917099, -6.9501958], [110.2978275, -6.9435949], [110.2991931, -6.9410057], [110.3016334, -6.9395019], [110.3048635, -6.938814], [110.3059173, -6.9375037], [110.3141519, -6.9376523], [110.31993, -6.93896], [110.3279, -6.94269], [110.34033, -6.94802], [110.35558, -6.9527], [110.35727, -6.95393], [110.36237, -6.95447], [110.36631, -6.95361], [110.36897, -6.95512], [110.37433, -6.95413], [110.3768, -6.95471], [110.38275, -6.9547], [110.3769353, -6.9517116], [110.376772, -6.95089], [110.3866795, -6.9497939], [110.3872411, -6.9519246], [110.3906, -6.95198], [110.38932, -6.94783], [110.3932036, -6.9456005], [110.3946301, -6.9479533], [110.3980095, -6.9475748], [110.39898, -6.94978], [110.40145, -6.95148], [110.40538, -6.95084], [110.4058124, -6.9487558], [110.4090185, -6.9471866], [110.4155391, -6.9459766], [110.41943, -6.94433], [110.4195, -6.95092], [110.42338, -6.94966], [110.423932, -6.946902], [110.4242771, -6.9387653], [110.4270177, -6.9382434], [110.4270013, -6.9410459], [110.4291255, -6.9444322], [110.4332015, -6.9439807], [110.4343281, -6.9478445], [110.436241, -6.945758], [110.4367824, -6.9433436], [110.4389525, -6.9422346], [110.4396944, -6.9452976], [110.4417421, -6.9463812], [110.443663, -6.9411591], [110.4429549, -6.9382719], [110.4474383, -6.935793], [110.4487316, -6.9375103], [110.45666, -6.93539], [110.45951, -6.9328], [110.4632125, -6.9315276]]]], "type": "MultiPolygon"}, "properties": {"alt_name": "KOTA SEMARANG", "kabkot_id": "74", "latitude": -7.03333, "longitude": 110.38333, "mhid": "1332:226", "name": "KOTA SEMARANG", "prov_name": "JAWA TENGAH", "province_id": "33", "sample_value": 859}, "type": "Feature"}], "type": "FeatureCollection"});
 
         
     
-            geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            tile_layer_cee821116bbd3a59e8894333231db18f.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            var marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c = L.markerClusterGroup(
+            var marker_cluster_9321c8f546c804918382f8ea3af2a3a5 = L.markerClusterGroup(
                 {}
             );
         
     
-            var marker_d54ab5c1161ef46f36a291cfd211263f = L.marker(
-                [-6.97819, 110.423082],
+            var marker_902d4cc31305ba95cc4c88d8a9985294 = L.marker(
+                [-6.995900478554304, 110.4621580718626],
                 {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
+            ).addTo(marker_cluster_9321c8f546c804918382f8ea3af2a3a5);
         
     
-        var popup_6a629126c6ba2ad9bfc78afbffa2fec0 = L.popup({"maxWidth": "100%"});
+        var popup_39f4ef02a6842801846ba952791ef5e6 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_c48d9889caadb3ffcfb3bb6dc73183c3 = $(`<div id="html_c48d9889caadb3ffcfb3bb6dc73183c3" style="width: 100.0%; height: 100.0%;">         <b>Quest Hotel Simpang Lima Semarang</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpO3ZZ8iSuOdfYfzpHgacViFkWzwYdEbD7BDAkFRV819d6ogeXnFUc_E943OZPaa6FGXwydmU_m4b-LILq-sltwmaUViaguMx5oAAkwdUCQf_2tO4N1YGwDUqYuDdO11I-OzTs9LPW_Ogo795r42RptPceUYGpm_95MtbokszrVy5nM&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_6a629126c6ba2ad9bfc78afbffa2fec0.setContent(html_c48d9889caadb3ffcfb3bb6dc73183c3);
+                var html_0326d39a2db31bb830add5812507a11f = $(`<div id="html_0326d39a2db31bb830add5812507a11f" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; width: 300px; padding: 10px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); background-color: #f9f9f9;">         <div style=" margin-bottom: 10px;">             <h3 style="margin: 0; color: #2c3e50;">KAMPUNG KECIL SEMARANG</h3>             <p style="font-size: 14px; color: #7f8c8d;">c</p>         </div>         <div style="text-align: center; margin-bottom: 10px;">             <img src="https://lh5.googleusercontent.com/p/AF1QipMPQ74lhiHk-gPRMPtuhFozGm1xxsEvYoWtipnC=w408-h543-k-no" alt="Image of KAMPUNG KECIL SEMARANG"                   style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px;">         </div>         <div style="margin-top: 10px;">             <p style="margin: 5px 0; font-size: 14px; color: #34495e;"><b>Rating:</b> ⭐⭐⭐⭐⭐ 5/5</p>             <p style="margin: 5px 0; font-size: 14px; color: #34495e;"><b>Harga:</b>  1–25.000</p>         </div>     </div>     </div>`)[0];
+                popup_39f4ef02a6842801846ba952791ef5e6.setContent(html_0326d39a2db31bb830add5812507a11f);
             
         
 
-        marker_d54ab5c1161ef46f36a291cfd211263f.bindPopup(popup_6a629126c6ba2ad9bfc78afbffa2fec0)
+        marker_902d4cc31305ba95cc4c88d8a9985294.bindPopup(popup_39f4ef02a6842801846ba952791ef5e6)
         ;
 
         
     
     
-            var marker_8a0285913ce0751c908ab21ab3942162 = L.marker(
-                [-7.004878000000001, 110.413186],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-        var popup_c456d6d4c04c67a7ddb53d7de2bffb1e = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_4e2ee950279ef9aff2448b504c54768a = $(`<div id="html_4e2ee950279ef9aff2448b504c54768a" style="width: 100.0%; height: 100.0%;">         <b>Hotel NEO Candi Simpang Lima - Semarang</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpeB-snrbY4hFex8rTggZskgY2bJn61hZxBkstJjhBTYOzGJBXu8Hd92issG_0E1Lpx3f_c29eFyEgjc-kIvTgj2rM1CydtjXOsG8DqtW7eB_xEUEPbxd4Hm9ZKlnvP1_PUbUopM-SMoUwIO-ElGFKIsBWLRgWagaspMa5gAKURW11K&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_c456d6d4c04c67a7ddb53d7de2bffb1e.setContent(html_4e2ee950279ef9aff2448b504c54768a);
-            
-        
-
-        marker_8a0285913ce0751c908ab21ab3942162.bindPopup(popup_c456d6d4c04c67a7ddb53d7de2bffb1e)
-        ;
-
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-    
-            var marker_3b402bd4821bd76a8bfec2ef4aa6af33 = L.marker(
-                [-6.986611799999999, 110.4155964],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-        var popup_43b5415ecb82378b78ebf2a5ca1d1adf = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_8053b227477a6400ea50ec89587f6e16 = $(`<div id="html_8053b227477a6400ea50ec89587f6e16" style="width: 100.0%; height: 100.0%;">         <b>Pandanaran Hotel Simpang Lima</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWqYHL8jg4rDdfmf33EDI2K1G1zzJ9Alxz0hE6bKSWNfwx7dCCir3Xn_29r8zxV16TARIP8OmJo1eHKZInyFNh9nv9SwxqdY1yWPxf4j_yfGlv0D2M60cmqsTJ3eBGq_9ZQIVlQtZWw90IoZnKatqX0J2qMaBDaCvqk0HhPHQz5w8xOr&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_43b5415ecb82378b78ebf2a5ca1d1adf.setContent(html_8053b227477a6400ea50ec89587f6e16);
-            
-        
-
-        marker_3b402bd4821bd76a8bfec2ef4aa6af33.bindPopup(popup_43b5415ecb82378b78ebf2a5ca1d1adf)
-        ;
-
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-    
-            var marker_1d39f5d338d7695cd0edca5370c88e3f = L.marker(
-                [-7.048015099999999, 110.420233],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_5d381eb674d7dfb5ef6c214aefbeceac = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_73cced9a3e735162ce7ef736e2702257 = $(`<div id="html_73cced9a3e735162ce7ef736e2702257" style="width: 100.0%; height: 100.0%;">         <b>Swiss House Setiabudi</b><br>         bakery, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpuSGvqgJhM5-nb60dBvjj8o99gOitwOork5gl4_YE_7owJt-nVxvsTBesPrLLwPUiEqydtXHy2a0JtLDpcsWejwLKu8uRGqGM6AKfoyyxbA9rBl8yARsHaiqfY4_hG_opiqT5dKe5OXF5ak0UmFJ8EMVN9BS7R-qsYQj2h6mbE1l6g&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_5d381eb674d7dfb5ef6c214aefbeceac.setContent(html_73cced9a3e735162ce7ef736e2702257);
-            
-        
-
-        marker_1d39f5d338d7695cd0edca5370c88e3f.bindPopup(popup_5d381eb674d7dfb5ef6c214aefbeceac)
-        ;
-
-        
-    
-    
-            var marker_d2f3e0d42233aba09ef655f74e4a7f93 = L.marker(
-                [-6.9888925, 110.4319576],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_f3700144caa8dcd87c7a6828d9e17722 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_8fea49e72171f54540c713c7461eee22 = $(`<div id="html_8fea49e72171f54540c713c7461eee22" style="width: 100.0%; height: 100.0%;">         <b>Ayam Goreng Semarang</b><br>         meal_takeaway, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWru32az4q7ljRo6wHCSDN4n1tmJ0oEMbgwk0MprpB5d9Xy4DcfwsRaGjYjZQvODjsCYIADPqk3YQP8Oup88wbRllJJ924WP1zddxf6vlkZyXZCaI_5EZcpNnwofF0ToSrq0pvMtVCOWd8bFHM2iUTwgPXnAPQxa0k3YOGn4GA0Mkory&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_f3700144caa8dcd87c7a6828d9e17722.setContent(html_8fea49e72171f54540c713c7461eee22);
-            
-        
-
-        marker_d2f3e0d42233aba09ef655f74e4a7f93.bindPopup(popup_f3700144caa8dcd87c7a6828d9e17722)
-        ;
-
-        
-    
-    
-            var marker_7ef5187efb1c3e643b5812865d0db891 = L.marker(
-                [-6.9986497, 110.4222963],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_108e582172e5b940717d2e03fd20af18 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f17803eab5694f915daa334d2a97f7aa = $(`<div id="html_f17803eab5694f915daa334d2a97f7aa" style="width: 100.0%; height: 100.0%;">         <b>Hotel Ibrahim Syariah Simpang Lima</b><br>         mosque, cafe, electronics_store, lodging, place_of_worship, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWoL5Jl_M4pf0NB7fAcSiRgUI3zooz5ZgeStnda-JJoDhBjtG21rN-gz_5U9GtL6qu2WHOLk4srJP85m5RybZ8Zbm-tPhqL6nXcEbvl9sRmFOU2NJuCkiQyWU9V6_2a0B1G1TwEWn3838b6uPdVCYAemisaI8op-XX2toib0T0NmqOxH&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_108e582172e5b940717d2e03fd20af18.setContent(html_f17803eab5694f915daa334d2a97f7aa);
-            
-        
-
-        marker_7ef5187efb1c3e643b5812865d0db891.bindPopup(popup_108e582172e5b940717d2e03fd20af18)
-        ;
-
-        
-    
-    
-            var marker_44cf34b9330960c285a285bd4badd4df = L.marker(
-                [-6.9890892, 110.4259301],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_6abe8120b8088d6a0451c774018cbce7 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_8697f8ff3b5f8c8e1ab64b9572dc0b3b = $(`<div id="html_8697f8ff3b5f8c8e1ab64b9572dc0b3b" style="width: 100.0%; height: 100.0%;">         <b>Soto Mbak Lin</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpqPHT3_CcreEr_vVgU96yK3Qj4P1NqyGugkGI-fTbIQyQHtCk2ceh5ugYGSaLkMVbB_GzCAY8z7XK8IGZh7UoLe-nUhv4HbRcl6XTQQiZHHkTSi5BLcgZasVgayMMLgz4UyEJcnfaQtnjGFmBn061eNSb-UoPy-giKLFR5xng6I0S3&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 1         </div>`)[0];
-                popup_6abe8120b8088d6a0451c774018cbce7.setContent(html_8697f8ff3b5f8c8e1ab64b9572dc0b3b);
-            
-        
-
-        marker_44cf34b9330960c285a285bd4badd4df.bindPopup(popup_6abe8120b8088d6a0451c774018cbce7)
-        ;
-
-        
-    
-    
-            var marker_a5c4a53bfa1a3849e5c098bd73e688b6 = L.marker(
-                [-7.0515875, 110.4227031],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_0f4f3cf495265b803b9e73156e3737b1 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_2641f620df86f35eba567ed9c42ffe7c = $(`<div id="html_2641f620df86f35eba567ed9c42ffe7c" style="width: 100.0%; height: 100.0%;">         <b>Bakmi Setiabudi</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWp7pAEq2koIE6qlv5afdfhogQ5jaCaIuJVW3JpbGvCc7aMz-4fOqwYG0_1bbxcgshraNxkMB3YgK8tVneceBdXleGgOGwrLS1Py3hKADZVltKMUrTYlshtDFi_el3WhUbBMMBH5TjS4uPVBxvdRMmD_cBSVO5W45RZz-Q1849HsiQ3z&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_0f4f3cf495265b803b9e73156e3737b1.setContent(html_2641f620df86f35eba567ed9c42ffe7c);
-            
-        
-
-        marker_a5c4a53bfa1a3849e5c098bd73e688b6.bindPopup(popup_0f4f3cf495265b803b9e73156e3737b1)
-        ;
-
-        
-    
-    
-            var marker_dcbe4599f01425fe7443b6282f65d1df = L.marker(
-                [-7.0620105, 110.4413918],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_4d8e99c0cdf6902979666289e9b22f9d = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_66b4b67b58e1c833347225401935a484 = $(`<div id="html_66b4b67b58e1c833347225401935a484" style="width: 100.0%; height: 100.0%;">         <b>Gondang Raya Restaurant</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrSM2rrW8lnFPXCUtZXVTBPCtbfJI9Dmc4mtc8hwfHe0iFXcfMGdcwlHFe9eBWrnRjLPz9UGtenhtTXwAw58KN_UIjUA9jC-pAdrwc1bUYl9-4ngCfrxvcS4XYhNZ4kMMh61yLY_ztQIvvgVH5rKeDnO6CrDKQ0wE3PGkjECWZNTfNr&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 1         </div>`)[0];
-                popup_4d8e99c0cdf6902979666289e9b22f9d.setContent(html_66b4b67b58e1c833347225401935a484);
-            
-        
-
-        marker_dcbe4599f01425fe7443b6282f65d1df.bindPopup(popup_4d8e99c0cdf6902979666289e9b22f9d)
-        ;
-
-        
-    
-    
-            var marker_6a7f17520ea3616d55e4db9a8b699391 = L.marker(
-                [-7.0178121, 110.4660295],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_45efe712eeca23a5deaf76477ae1967c = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_4e0de35eec4c87d8f908098e0f181732 = $(`<div id="html_4e0de35eec4c87d8f908098e0f181732" style="width: 100.0%; height: 100.0%;">         <b>Bakso Barokah Surabaya</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpaGNWmjjaiKbzNb974PSq6YyAQjtayM05SkC_v5pFoXUiBIuhIMZWW4m3RCXvxrrxaSlgpkCFHRk-u4ZpeVvx_koyosX9I23cUcY2OP2BXUkBJIQgiLLtxIkqXfKorBIduCao0gXDCAR8_9_P13FUtV8G2aG3DEr7i1FIFvlPsY-rT&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_45efe712eeca23a5deaf76477ae1967c.setContent(html_4e0de35eec4c87d8f908098e0f181732);
-            
-        
-
-        marker_6a7f17520ea3616d55e4db9a8b699391.bindPopup(popup_45efe712eeca23a5deaf76477ae1967c)
-        ;
-
-        
-    
-    
-            var marker_656046e2b9bf1eeb7eb0c0094593d053 = L.marker(
-                [-6.962044, 110.3860703],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_e42e18e8eb9b26dc9e5184fc4927f799 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_34e364671f380a500bc2f216f3443704 = $(`<div id="html_34e364671f380a500bc2f216f3443704" style="width: 100.0%; height: 100.0%;">         <b>Restoran Kampung Laut</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWobmPFBQD6RKpu0IFs-4rTHXWLW9CrCPee-imJx4BE5WNUreiy-VBBQGVNmTOno5mDEKnuMWyHOlGQGazJVjFcSh199NqJB--Z3OM9NS2fPltlv8LCBHlQ6KL_VZhvMfusqap7o4QXHHW0K2rpCgVTXfnA3jHe9IwHsjx_qF2XqC0yj&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_e42e18e8eb9b26dc9e5184fc4927f799.setContent(html_34e364671f380a500bc2f216f3443704);
-            
-        
-
-        marker_656046e2b9bf1eeb7eb0c0094593d053.bindPopup(popup_e42e18e8eb9b26dc9e5184fc4927f799)
-        ;
-
-        
-    
-    
-            var marker_4ed01eda3c3f2151403814d01ad192ee = L.marker(
-                [-6.9716394, 110.4224022],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_7aa39278d9a0c00ed6808be9257342ea = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_308632f65cc2c03b5f2951b9f6e2ba5b = $(`<div id="html_308632f65cc2c03b5f2951b9f6e2ba5b" style="width: 100.0%; height: 100.0%;">         <b>RM. Simpang Raya (Since1978)</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWq_sXWn8m6wQ9oTjyaXhmo5iJMlgtKPau1c0cMLJF-FYu_zGyartssrAuMKTUzKQCTFBKUKQuksXL4xafVJflU55kcZkYDmMfIF0jsnyLnZok5-WTfekD1AuX-Cv02okoafYc1-my-A773sPMIy5hZAPEZ6BzGHSl9nbjJavP3yvhEk&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_7aa39278d9a0c00ed6808be9257342ea.setContent(html_308632f65cc2c03b5f2951b9f6e2ba5b);
-            
-        
-
-        marker_4ed01eda3c3f2151403814d01ad192ee.bindPopup(popup_7aa39278d9a0c00ed6808be9257342ea)
-        ;
-
-        
-    
-    
-            var marker_ebaeea6a460525e4b830307e1207d6ad = L.marker(
-                [-6.98863, 110.423835],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_43340bc215b70184ebc6f0eab43a59ae = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_652294b7c57a812c09485fded7766b90 = $(`<div id="html_652294b7c57a812c09485fded7766b90" style="width: 100.0%; height: 100.0%;">         <b>KFC Citraland Semarang</b><br>         cafe, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWq3UwTYqWPN-I65T9eO8KxzUTNznpCwAUNZyo1f0qISFwH8mpEAdlVGiFwMVqW4kpCkrYyN6zqAoChoo1AF0aVDjz_6XhEoNWfa-Suo-7kxfXY0-ZGSQKnHtQLUM6YaY6mzxvUwkY24zH27fKwMWoGftGqoT95Ro3nxiVz61u14cokU&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_43340bc215b70184ebc6f0eab43a59ae.setContent(html_652294b7c57a812c09485fded7766b90);
-            
-        
-
-        marker_ebaeea6a460525e4b830307e1207d6ad.bindPopup(popup_43340bc215b70184ebc6f0eab43a59ae)
-        ;
-
-        
-    
-    
-            var marker_fb87ad957f8b8bc0618cbf4aa4b48905 = L.marker(
-                [-7.001459000000001, 110.4183664],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_0af29975edd8d6e535ee4984aff4c017 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_588b0f2df3cd8ef85171a5820c54634b = $(`<div id="html_588b0f2df3cd8ef85171a5820c54634b" style="width: 100.0%; height: 100.0%;">         <b>Valle Pizza E Resto</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWp91uLA4Gxz-OGgXWH5h-M768QaRYU-70GpQ3vyt-l38fKj8AtU7t91JUlE61PlJARThi-uyeK-rzSJ9PuQ6-KBWRrqUi0BukiqzIwh0lprWbpsBpB310KTNvOTWavHDWWFMRiEQOpT-3XmmwQZrTU_1VM_s1mPhYKq0et5Uz9SoVzB&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_0af29975edd8d6e535ee4984aff4c017.setContent(html_588b0f2df3cd8ef85171a5820c54634b);
-            
-        
-
-        marker_fb87ad957f8b8bc0618cbf4aa4b48905.bindPopup(popup_0af29975edd8d6e535ee4984aff4c017)
-        ;
-
-        
-    
-    
-            var marker_1cc5920eba44ec840fb70747f7495c79 = L.marker(
-                [-6.988922999999999, 110.4256999],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_7ba6d9ea4e8400d804e0d0169042198a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f39366a0e56657dbba5c9b7de2c0f29e = $(`<div id="html_f39366a0e56657dbba5c9b7de2c0f29e" style="width: 100.0%; height: 100.0%;">         <b>RV cafe 24 hours & Swingle Bar</b><br>         cafe, bar, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpDR19kXr5_lCtlwRN_hl_MH4RHdi1kfL0H-Uj-mGvGcAsyqZeg32Qsj1kPuw6su3WmNE8F84H7T7SOGw6a_oF73uGKQBLNjjdXAOyP00P-AUkb1vvyRKNVoNjAbRALg_ghQRGmJELtbXigT0o4i9GXjEWjR92SWF-SjJsNJgurrtgR&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_7ba6d9ea4e8400d804e0d0169042198a.setContent(html_f39366a0e56657dbba5c9b7de2c0f29e);
-            
-        
-
-        marker_1cc5920eba44ec840fb70747f7495c79.bindPopup(popup_7ba6d9ea4e8400d804e0d0169042198a)
-        ;
-
-        
-    
-    
-            var marker_5bd3b14c69391f2cea6831ae2d2b4f0a = L.marker(
-                [-6.9785355, 110.4157739],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_ff5a16f15f073aaa0a8bd156932a840f = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_be7cfe11cae8ff8b9b35a5964a972830 = $(`<div id="html_be7cfe11cae8ff8b9b35a5964a972830" style="width: 100.0%; height: 100.0%;">         <b>HokBen Paragon City Mall Semarang</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWqfjf0kq_o4qHX4T5G6hBpNwBjHlKE2-rxsS57TCU-BcrJTPEUMe0mgjnWQ3CfhBXpQ33RrTw1ETCdUTyUa-fCz4-Bn8sScp2SENZYjOVRZHjHOkHNvL2OWzNuoxok_8rI0pOCbDtOwa8R4x-9zIoN57hG-WLhq0z73oK0g80w0-QRK&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_ff5a16f15f073aaa0a8bd156932a840f.setContent(html_be7cfe11cae8ff8b9b35a5964a972830);
-            
-        
-
-        marker_5bd3b14c69391f2cea6831ae2d2b4f0a.bindPopup(popup_ff5a16f15f073aaa0a8bd156932a840f)
-        ;
-
-        
-    
-    
-            var marker_578eba529815a4d42ec442ac25fad555 = L.marker(
-                [-6.9891955, 110.4186309],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_f67560d9eadd60ded06bcca0ec8ffe4e = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_bb1af7b558fa3e4ace4d233642ce4888 = $(`<div id="html_bb1af7b558fa3e4ace4d233642ce4888" style="width: 100.0%; height: 100.0%;">         <b>Shabu Zen</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWoovvHwLSiMULcxXMTeEiHEXE_xMKNbtvQUxv3d7ymwRi0_VxpXJTK-OQTSJi060EwpoAg4jdKMxmNxwRRk8904rDdY00QOsUxGLaRQKKZXLcPVQrUs5xr-wF2JPPmEFBwine8sRHZkHvpB5b5cPqNbUBuLEt0XYmfz247ZU5sNzxs&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_f67560d9eadd60ded06bcca0ec8ffe4e.setContent(html_bb1af7b558fa3e4ace4d233642ce4888);
-            
-        
-
-        marker_578eba529815a4d42ec442ac25fad555.bindPopup(popup_f67560d9eadd60ded06bcca0ec8ffe4e)
-        ;
-
-        
-    
-    
-            var marker_8cbc1ffe2a2caf54b332f9c334ffa2c4 = L.marker(
-                [-7.027574599999999, 110.4182634],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_abdde81f032a3327f9c93100cc32da7b = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f2bf642f37d21a526578ffc8991ed579 = $(`<div id="html_f2bf642f37d21a526578ffc8991ed579" style="width: 100.0%; height: 100.0%;">         <b>Sate & Gule Kambing 29 - Teuku Umar</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpvHTe_CFHDL-ObdDuxmy5ehaXtHZiU4FMrdgSx-06HVDbRiS2a5Vf-cI5m1XAfKblziopjmi060tdg0VTtig1N3SfObLTjJuOzdTEL-gzdEjYBTtiXZ_WNYG26xQIWwjT_s7GAlkw_OImudH5GrTHAOBe3Eid2T0dDjP04u5WwnrqH&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_abdde81f032a3327f9c93100cc32da7b.setContent(html_f2bf642f37d21a526578ffc8991ed579);
-            
-        
-
-        marker_8cbc1ffe2a2caf54b332f9c334ffa2c4.bindPopup(popup_abdde81f032a3327f9c93100cc32da7b)
-        ;
-
-        
-    
-    
-            var marker_698b9cf749487c9fa50264f65b8ad564 = L.marker(
-                [-6.974852299999999, 110.4145716],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_2bfe8dfa547c639d27bd935e413ad22d = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_a5f5a80c1817810a60a8cc87dcb69830 = $(`<div id="html_a5f5a80c1817810a60a8cc87dcb69830" style="width: 100.0%; height: 100.0%;">         <b>Ben Tuman Steak & Bakery</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrP0pg1Xh67w3W_ufWgBb3iOXZ0fFV9uMvCcXyyoNepuHwW0gSe042xVAyqYWdbKaPZ3DHqqkMPpCxbdphkC2eEL3UQbwBhW8zlgBHM6Yzl9mpVEPgON_B6tQjU2nrujfsL95ZmAgg_rlib1AwPu9q1SLOFb33ZbjnFyPuiOKnsk6lk&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_2bfe8dfa547c639d27bd935e413ad22d.setContent(html_a5f5a80c1817810a60a8cc87dcb69830);
-            
-        
-
-        marker_698b9cf749487c9fa50264f65b8ad564.bindPopup(popup_2bfe8dfa547c639d27bd935e413ad22d)
-        ;
-
-        
-    
-    
-            var marker_5bb6a85be9b17a68ecf3c4a2465a4293 = L.marker(
-                [-6.9808175, 110.4171161],
-                {}
-            ).addTo(marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c);
-        
-    
-        var popup_6f489218abbfecf1a9c3b55cf3ec5f0e = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_129e40627ec35647c7b4d4deac9b3eb4 = $(`<div id="html_129e40627ec35647c7b4d4deac9b3eb4" style="width: 100.0%; height: 100.0%;">         <b>Palace Fine Cuisine & Ballroom</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrAuYb8cBGItWM5yHadmQxxKxVCBG9iFtfDldmItw3j9FdExUSd88b9xATVb5RLkX0GUDux5udrg42bd4LgSx0d3fuD4HuA4A5QRHHEqaKjLfLpKgop72S8FWXJHVmrQg6A8eMViOt7y8ISkidzk_MoI5Zq3ahBGQHvMC44IW4W8gA-&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_6f489218abbfecf1a9c3b55cf3ec5f0e.setContent(html_129e40627ec35647c7b4d4deac9b3eb4);
-            
-        
-
-        marker_5bb6a85be9b17a68ecf3c4a2465a4293.bindPopup(popup_6f489218abbfecf1a9c3b55cf3ec5f0e)
-        ;
-
-        
-    
-    
-            marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
-        
-    
-            tile_layer_cee821116bbd3a59e8894333231db18f.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
-        
-    
-            geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
-        
-    
-            marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
-        
-    
-            var marker_cluster_7349514355506e4eec859b6489a53d28 = L.markerClusterGroup(
+            var marker_cluster_38c351fb96f1b7386a4b212119bec93a = L.markerClusterGroup(
                 {}
             );
         
     
-            var marker_6b669933a3e23ea55c0355133f9a5c6d = L.marker(
-                [-6.97819, 110.423082],
+            var marker_71e997912eb1575a8efbd4878d74440f = L.marker(
+                [-6.995900478554304, 110.4621580718626],
                 {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
+            ).addTo(marker_cluster_38c351fb96f1b7386a4b212119bec93a);
         
     
-        var popup_1ae3962dba9e89e11fb4a2085817a62d = L.popup({"maxWidth": "100%"});
+        var popup_1e4d7f097ff673667748480f92682fae = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_0c2020836a5a836499e20735a2d4f883 = $(`<div id="html_0c2020836a5a836499e20735a2d4f883" style="width: 100.0%; height: 100.0%;">         <b>Quest Hotel Simpang Lima Semarang</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpO3ZZ8iSuOdfYfzpHgacViFkWzwYdEbD7BDAkFRV819d6ogeXnFUc_E943OZPaa6FGXwydmU_m4b-LILq-sltwmaUViaguMx5oAAkwdUCQf_2tO4N1YGwDUqYuDdO11I-OzTs9LPW_Ogo795r42RptPceUYGpm_95MtbokszrVy5nM&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_1ae3962dba9e89e11fb4a2085817a62d.setContent(html_0c2020836a5a836499e20735a2d4f883);
+                var html_1990745958a083bf36ba61a95afecbe5 = $(`<div id="html_1990745958a083bf36ba61a95afecbe5" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial, sans-serif; width: 300px; padding: 10px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); background-color: #f9f9f9;">         <div style=" margin-bottom: 10px;">             <h3 style="margin: 0; color: #2c3e50;">KAMPUNG KECIL SEMARANG</h3>             <p style="font-size: 14px; color: #7f8c8d;">c</p>         </div>         <div style="text-align: center; margin-bottom: 10px;">             <img src="https://lh5.googleusercontent.com/p/AF1QipMPQ74lhiHk-gPRMPtuhFozGm1xxsEvYoWtipnC=w408-h543-k-no" alt="Image of KAMPUNG KECIL SEMARANG"                   style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px;">         </div>         <div style="margin-top: 10px;">             <p style="margin: 5px 0; font-size: 14px; color: #34495e;"><b>Rating:</b> ⭐⭐⭐⭐⭐ 5/5</p>             <p style="margin: 5px 0; font-size: 14px; color: #34495e;"><b>Harga:</b>  1–25.000</p>         </div>     </div>     </div>`)[0];
+                popup_1e4d7f097ff673667748480f92682fae.setContent(html_1990745958a083bf36ba61a95afecbe5);
             
         
 
-        marker_6b669933a3e23ea55c0355133f9a5c6d.bindPopup(popup_1ae3962dba9e89e11fb4a2085817a62d)
+        marker_71e997912eb1575a8efbd4878d74440f.bindPopup(popup_1e4d7f097ff673667748480f92682fae)
         ;
 
         
     
     
-            var marker_e45e121969cb0a2c7590aeac633ee1dd = L.marker(
-                [-7.004878000000001, 110.413186],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-        var popup_25c25d200d7a7f93466fb2c1532219b4 = L.popup({"maxWidth": "100%"});
-
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
-            
-                var html_12cec3792745790a1e1b805b46631973 = $(`<div id="html_12cec3792745790a1e1b805b46631973" style="width: 100.0%; height: 100.0%;">         <b>Hotel NEO Candi Simpang Lima - Semarang</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpeB-snrbY4hFex8rTggZskgY2bJn61hZxBkstJjhBTYOzGJBXu8Hd92issG_0E1Lpx3f_c29eFyEgjc-kIvTgj2rM1CydtjXOsG8DqtW7eB_xEUEPbxd4Hm9ZKlnvP1_PUbUopM-SMoUwIO-ElGFKIsBWLRgWagaspMa5gAKURW11K&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_25c25d200d7a7f93466fb2c1532219b4.setContent(html_12cec3792745790a1e1b805b46631973);
-            
-        
-
-        marker_e45e121969cb0a2c7590aeac633ee1dd.bindPopup(popup_25c25d200d7a7f93466fb2c1532219b4)
-        ;
-
-        
-    
-    
-            var marker_21fa25c690089e779546bcabee76bc2a = L.marker(
-                [-6.986611799999999, 110.4155964],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_adfbca195d04e5afec9a5a2e614622d8 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f1db05cf948a76a43eb67e1816fe4bef = $(`<div id="html_f1db05cf948a76a43eb67e1816fe4bef" style="width: 100.0%; height: 100.0%;">         <b>Pandanaran Hotel Simpang Lima</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWqYHL8jg4rDdfmf33EDI2K1G1zzJ9Alxz0hE6bKSWNfwx7dCCir3Xn_29r8zxV16TARIP8OmJo1eHKZInyFNh9nv9SwxqdY1yWPxf4j_yfGlv0D2M60cmqsTJ3eBGq_9ZQIVlQtZWw90IoZnKatqX0J2qMaBDaCvqk0HhPHQz5w8xOr&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_adfbca195d04e5afec9a5a2e614622d8.setContent(html_f1db05cf948a76a43eb67e1816fe4bef);
-            
-        
-
-        marker_21fa25c690089e779546bcabee76bc2a.bindPopup(popup_adfbca195d04e5afec9a5a2e614622d8)
-        ;
-
-        
-    
-    
-            var marker_054b807b5a28a709d488a78a0f906378 = L.marker(
-                [-7.048015099999999, 110.420233],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_ed289728836eb6d5cc8a500d88fc86ae = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_e87d3d9abf3c13d11939e33b7d12a46e = $(`<div id="html_e87d3d9abf3c13d11939e33b7d12a46e" style="width: 100.0%; height: 100.0%;">         <b>Swiss House Setiabudi</b><br>         bakery, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpuSGvqgJhM5-nb60dBvjj8o99gOitwOork5gl4_YE_7owJt-nVxvsTBesPrLLwPUiEqydtXHy2a0JtLDpcsWejwLKu8uRGqGM6AKfoyyxbA9rBl8yARsHaiqfY4_hG_opiqT5dKe5OXF5ak0UmFJ8EMVN9BS7R-qsYQj2h6mbE1l6g&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_ed289728836eb6d5cc8a500d88fc86ae.setContent(html_e87d3d9abf3c13d11939e33b7d12a46e);
-            
-        
-
-        marker_054b807b5a28a709d488a78a0f906378.bindPopup(popup_ed289728836eb6d5cc8a500d88fc86ae)
-        ;
-
-        
-    
-    
-            var marker_09aef18f5330aa1366a5dfd640b8f24a = L.marker(
-                [-6.9888925, 110.4319576],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_e65f9b37410d5926fbf20940db86d1b5 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_88db041c2fa9571f573da3694f49d946 = $(`<div id="html_88db041c2fa9571f573da3694f49d946" style="width: 100.0%; height: 100.0%;">         <b>Ayam Goreng Semarang</b><br>         meal_takeaway, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWru32az4q7ljRo6wHCSDN4n1tmJ0oEMbgwk0MprpB5d9Xy4DcfwsRaGjYjZQvODjsCYIADPqk3YQP8Oup88wbRllJJ924WP1zddxf6vlkZyXZCaI_5EZcpNnwofF0ToSrq0pvMtVCOWd8bFHM2iUTwgPXnAPQxa0k3YOGn4GA0Mkory&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_e65f9b37410d5926fbf20940db86d1b5.setContent(html_88db041c2fa9571f573da3694f49d946);
-            
-        
-
-        marker_09aef18f5330aa1366a5dfd640b8f24a.bindPopup(popup_e65f9b37410d5926fbf20940db86d1b5)
-        ;
-
-        
-    
-    
-            var marker_35f76190e56d948dd14d22ce2a7ed01c = L.marker(
-                [-6.9986497, 110.4222963],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_c0799a6bd981feb886d58666288f679e = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_0784e0894d27c8638ac888ba76a9ac0d = $(`<div id="html_0784e0894d27c8638ac888ba76a9ac0d" style="width: 100.0%; height: 100.0%;">         <b>Hotel Ibrahim Syariah Simpang Lima</b><br>         mosque, cafe, electronics_store, lodging, place_of_worship, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWoL5Jl_M4pf0NB7fAcSiRgUI3zooz5ZgeStnda-JJoDhBjtG21rN-gz_5U9GtL6qu2WHOLk4srJP85m5RybZ8Zbm-tPhqL6nXcEbvl9sRmFOU2NJuCkiQyWU9V6_2a0B1G1TwEWn3838b6uPdVCYAemisaI8op-XX2toib0T0NmqOxH&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_c0799a6bd981feb886d58666288f679e.setContent(html_0784e0894d27c8638ac888ba76a9ac0d);
-            
-        
-
-        marker_35f76190e56d948dd14d22ce2a7ed01c.bindPopup(popup_c0799a6bd981feb886d58666288f679e)
-        ;
-
-        
-    
-    
-            var marker_c36cba83caf4331368f13d207e6d80e1 = L.marker(
-                [-6.9890892, 110.4259301],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_20f36157aa850f3617cbc094a38e0806 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_3c8352ab908c1a53b8fca8b25870968a = $(`<div id="html_3c8352ab908c1a53b8fca8b25870968a" style="width: 100.0%; height: 100.0%;">         <b>Soto Mbak Lin</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpqPHT3_CcreEr_vVgU96yK3Qj4P1NqyGugkGI-fTbIQyQHtCk2ceh5ugYGSaLkMVbB_GzCAY8z7XK8IGZh7UoLe-nUhv4HbRcl6XTQQiZHHkTSi5BLcgZasVgayMMLgz4UyEJcnfaQtnjGFmBn061eNSb-UoPy-giKLFR5xng6I0S3&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 1         </div>`)[0];
-                popup_20f36157aa850f3617cbc094a38e0806.setContent(html_3c8352ab908c1a53b8fca8b25870968a);
-            
-        
-
-        marker_c36cba83caf4331368f13d207e6d80e1.bindPopup(popup_20f36157aa850f3617cbc094a38e0806)
-        ;
-
-        
-    
-    
-            var marker_29f8de5d7b4db72c9e6cd3f7602e08c0 = L.marker(
-                [-7.0515875, 110.4227031],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_b54426dc6ac8f9df2d42f49e1dda99bf = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_4469ff2ccd4ccc56b50c8abd49cd2428 = $(`<div id="html_4469ff2ccd4ccc56b50c8abd49cd2428" style="width: 100.0%; height: 100.0%;">         <b>Bakmi Setiabudi</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWp7pAEq2koIE6qlv5afdfhogQ5jaCaIuJVW3JpbGvCc7aMz-4fOqwYG0_1bbxcgshraNxkMB3YgK8tVneceBdXleGgOGwrLS1Py3hKADZVltKMUrTYlshtDFi_el3WhUbBMMBH5TjS4uPVBxvdRMmD_cBSVO5W45RZz-Q1849HsiQ3z&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_b54426dc6ac8f9df2d42f49e1dda99bf.setContent(html_4469ff2ccd4ccc56b50c8abd49cd2428);
-            
-        
-
-        marker_29f8de5d7b4db72c9e6cd3f7602e08c0.bindPopup(popup_b54426dc6ac8f9df2d42f49e1dda99bf)
-        ;
-
-        
-    
-    
-            var marker_7a1ed009fbfbef810348b6b5c124e389 = L.marker(
-                [-7.0620105, 110.4413918],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_8ac4068f725d3f2beed4a5863f9afb96 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_c47e2a357c2fd8d1fd2e0df684c2fb77 = $(`<div id="html_c47e2a357c2fd8d1fd2e0df684c2fb77" style="width: 100.0%; height: 100.0%;">         <b>Gondang Raya Restaurant</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrSM2rrW8lnFPXCUtZXVTBPCtbfJI9Dmc4mtc8hwfHe0iFXcfMGdcwlHFe9eBWrnRjLPz9UGtenhtTXwAw58KN_UIjUA9jC-pAdrwc1bUYl9-4ngCfrxvcS4XYhNZ4kMMh61yLY_ztQIvvgVH5rKeDnO6CrDKQ0wE3PGkjECWZNTfNr&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 1         </div>`)[0];
-                popup_8ac4068f725d3f2beed4a5863f9afb96.setContent(html_c47e2a357c2fd8d1fd2e0df684c2fb77);
-            
-        
-
-        marker_7a1ed009fbfbef810348b6b5c124e389.bindPopup(popup_8ac4068f725d3f2beed4a5863f9afb96)
-        ;
-
-        
-    
-    
-            var marker_1c016054cc594a9dddcb39e6c3e10eac = L.marker(
-                [-7.0178121, 110.4660295],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_99a9faa56d10f3e88f34591fb8802d0a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_6bcd6eb6389a7a7cd5fdc4413fb164ba = $(`<div id="html_6bcd6eb6389a7a7cd5fdc4413fb164ba" style="width: 100.0%; height: 100.0%;">         <b>Bakso Barokah Surabaya</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpaGNWmjjaiKbzNb974PSq6YyAQjtayM05SkC_v5pFoXUiBIuhIMZWW4m3RCXvxrrxaSlgpkCFHRk-u4ZpeVvx_koyosX9I23cUcY2OP2BXUkBJIQgiLLtxIkqXfKorBIduCao0gXDCAR8_9_P13FUtV8G2aG3DEr7i1FIFvlPsY-rT&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_99a9faa56d10f3e88f34591fb8802d0a.setContent(html_6bcd6eb6389a7a7cd5fdc4413fb164ba);
-            
-        
-
-        marker_1c016054cc594a9dddcb39e6c3e10eac.bindPopup(popup_99a9faa56d10f3e88f34591fb8802d0a)
-        ;
-
-        
-    
-    
-            var marker_92af41a6cfe2313b662b3331724133f6 = L.marker(
-                [-6.962044, 110.3860703],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_b6a2e48271f3287f5072118bc90b6f16 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_2b46f7294f49be61d27736b3855491ff = $(`<div id="html_2b46f7294f49be61d27736b3855491ff" style="width: 100.0%; height: 100.0%;">         <b>Restoran Kampung Laut</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWobmPFBQD6RKpu0IFs-4rTHXWLW9CrCPee-imJx4BE5WNUreiy-VBBQGVNmTOno5mDEKnuMWyHOlGQGazJVjFcSh199NqJB--Z3OM9NS2fPltlv8LCBHlQ6KL_VZhvMfusqap7o4QXHHW0K2rpCgVTXfnA3jHe9IwHsjx_qF2XqC0yj&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_b6a2e48271f3287f5072118bc90b6f16.setContent(html_2b46f7294f49be61d27736b3855491ff);
-            
-        
-
-        marker_92af41a6cfe2313b662b3331724133f6.bindPopup(popup_b6a2e48271f3287f5072118bc90b6f16)
-        ;
-
-        
-    
-    
-            var marker_86b03d8a1214e236763dc42b8a746545 = L.marker(
-                [-6.9716394, 110.4224022],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_d8620c4e546b3e616a4e5f0c84abb380 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_0605f43b470f856f9fc23bfa0cca5cc9 = $(`<div id="html_0605f43b470f856f9fc23bfa0cca5cc9" style="width: 100.0%; height: 100.0%;">         <b>RM. Simpang Raya (Since1978)</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWq_sXWn8m6wQ9oTjyaXhmo5iJMlgtKPau1c0cMLJF-FYu_zGyartssrAuMKTUzKQCTFBKUKQuksXL4xafVJflU55kcZkYDmMfIF0jsnyLnZok5-WTfekD1AuX-Cv02okoafYc1-my-A773sPMIy5hZAPEZ6BzGHSl9nbjJavP3yvhEk&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_d8620c4e546b3e616a4e5f0c84abb380.setContent(html_0605f43b470f856f9fc23bfa0cca5cc9);
-            
-        
-
-        marker_86b03d8a1214e236763dc42b8a746545.bindPopup(popup_d8620c4e546b3e616a4e5f0c84abb380)
-        ;
-
-        
-    
-    
-            var marker_98b78dd47478bbb0f8bbede059866834 = L.marker(
-                [-6.98863, 110.423835],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_945c0fa2d15fac0594d3ca7d335208a2 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_3341c23cf5328117c313089258d86932 = $(`<div id="html_3341c23cf5328117c313089258d86932" style="width: 100.0%; height: 100.0%;">         <b>KFC Citraland Semarang</b><br>         cafe, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWq3UwTYqWPN-I65T9eO8KxzUTNznpCwAUNZyo1f0qISFwH8mpEAdlVGiFwMVqW4kpCkrYyN6zqAoChoo1AF0aVDjz_6XhEoNWfa-Suo-7kxfXY0-ZGSQKnHtQLUM6YaY6mzxvUwkY24zH27fKwMWoGftGqoT95Ro3nxiVz61u14cokU&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_945c0fa2d15fac0594d3ca7d335208a2.setContent(html_3341c23cf5328117c313089258d86932);
-            
-        
-
-        marker_98b78dd47478bbb0f8bbede059866834.bindPopup(popup_945c0fa2d15fac0594d3ca7d335208a2)
-        ;
-
-        
-    
-    
-            var marker_d15057dffe71e9a800914dcc6f5b3c40 = L.marker(
-                [-7.001459000000001, 110.4183664],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_49e452297320db1500f008a10ccc9a40 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_50a978d8c616a47bc6a3120ffca49cb8 = $(`<div id="html_50a978d8c616a47bc6a3120ffca49cb8" style="width: 100.0%; height: 100.0%;">         <b>Valle Pizza E Resto</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWp91uLA4Gxz-OGgXWH5h-M768QaRYU-70GpQ3vyt-l38fKj8AtU7t91JUlE61PlJARThi-uyeK-rzSJ9PuQ6-KBWRrqUi0BukiqzIwh0lprWbpsBpB310KTNvOTWavHDWWFMRiEQOpT-3XmmwQZrTU_1VM_s1mPhYKq0et5Uz9SoVzB&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_49e452297320db1500f008a10ccc9a40.setContent(html_50a978d8c616a47bc6a3120ffca49cb8);
-            
-        
-
-        marker_d15057dffe71e9a800914dcc6f5b3c40.bindPopup(popup_49e452297320db1500f008a10ccc9a40)
-        ;
-
-        
-    
-    
-            var marker_5606ee451878823b825e475c11e85c03 = L.marker(
-                [-6.988922999999999, 110.4256999],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_caab37f856cdbc3884ea1ba50771d035 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_83b6e5e566ac8a47af0192ada5fbbd16 = $(`<div id="html_83b6e5e566ac8a47af0192ada5fbbd16" style="width: 100.0%; height: 100.0%;">         <b>RV cafe 24 hours & Swingle Bar</b><br>         cafe, bar, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpDR19kXr5_lCtlwRN_hl_MH4RHdi1kfL0H-Uj-mGvGcAsyqZeg32Qsj1kPuw6su3WmNE8F84H7T7SOGw6a_oF73uGKQBLNjjdXAOyP00P-AUkb1vvyRKNVoNjAbRALg_ghQRGmJELtbXigT0o4i9GXjEWjR92SWF-SjJsNJgurrtgR&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_caab37f856cdbc3884ea1ba50771d035.setContent(html_83b6e5e566ac8a47af0192ada5fbbd16);
-            
-        
-
-        marker_5606ee451878823b825e475c11e85c03.bindPopup(popup_caab37f856cdbc3884ea1ba50771d035)
-        ;
-
-        
-    
-    
-            var marker_f9e8aa029cc7416cac91210667754369 = L.marker(
-                [-6.9785355, 110.4157739],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_5e701df08f4f88d304f9361d05e0429e = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_ef389f57c36cfb268c009b7d3feb128c = $(`<div id="html_ef389f57c36cfb268c009b7d3feb128c" style="width: 100.0%; height: 100.0%;">         <b>HokBen Paragon City Mall Semarang</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWqfjf0kq_o4qHX4T5G6hBpNwBjHlKE2-rxsS57TCU-BcrJTPEUMe0mgjnWQ3CfhBXpQ33RrTw1ETCdUTyUa-fCz4-Bn8sScp2SENZYjOVRZHjHOkHNvL2OWzNuoxok_8rI0pOCbDtOwa8R4x-9zIoN57hG-WLhq0z73oK0g80w0-QRK&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_5e701df08f4f88d304f9361d05e0429e.setContent(html_ef389f57c36cfb268c009b7d3feb128c);
-            
-        
-
-        marker_f9e8aa029cc7416cac91210667754369.bindPopup(popup_5e701df08f4f88d304f9361d05e0429e)
-        ;
-
-        
-    
-    
-            var marker_1102321df3c2979a82a9d5768de89940 = L.marker(
-                [-6.9891955, 110.4186309],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_1fa12a0b5f2617b1fdbed42e1244755d = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_4850f0264779384e39a227744ddf6ce8 = $(`<div id="html_4850f0264779384e39a227744ddf6ce8" style="width: 100.0%; height: 100.0%;">         <b>Shabu Zen</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWoovvHwLSiMULcxXMTeEiHEXE_xMKNbtvQUxv3d7ymwRi0_VxpXJTK-OQTSJi060EwpoAg4jdKMxmNxwRRk8904rDdY00QOsUxGLaRQKKZXLcPVQrUs5xr-wF2JPPmEFBwine8sRHZkHvpB5b5cPqNbUBuLEt0XYmfz247ZU5sNzxs&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_1fa12a0b5f2617b1fdbed42e1244755d.setContent(html_4850f0264779384e39a227744ddf6ce8);
-            
-        
-
-        marker_1102321df3c2979a82a9d5768de89940.bindPopup(popup_1fa12a0b5f2617b1fdbed42e1244755d)
-        ;
-
-        
-    
-    
-            var marker_707c8c0e7a9e46973a0c571b2f6f4973 = L.marker(
-                [-7.027574599999999, 110.4182634],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_0de3bcdc4ec681e15226c349c790dd37 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_12d7a1ee845ead5aa5f15cdb6f8fe4f7 = $(`<div id="html_12d7a1ee845ead5aa5f15cdb6f8fe4f7" style="width: 100.0%; height: 100.0%;">         <b>Sate & Gule Kambing 29 - Teuku Umar</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpvHTe_CFHDL-ObdDuxmy5ehaXtHZiU4FMrdgSx-06HVDbRiS2a5Vf-cI5m1XAfKblziopjmi060tdg0VTtig1N3SfObLTjJuOzdTEL-gzdEjYBTtiXZ_WNYG26xQIWwjT_s7GAlkw_OImudH5GrTHAOBe3Eid2T0dDjP04u5WwnrqH&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_0de3bcdc4ec681e15226c349c790dd37.setContent(html_12d7a1ee845ead5aa5f15cdb6f8fe4f7);
-            
-        
-
-        marker_707c8c0e7a9e46973a0c571b2f6f4973.bindPopup(popup_0de3bcdc4ec681e15226c349c790dd37)
-        ;
-
-        
-    
-    
-            var marker_9116eab8d489d374c91544672dabd967 = L.marker(
-                [-6.974852299999999, 110.4145716],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_3131fecafbdea209ce670d4f8cd3998a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_fd94489a763690e6d412eee65ac9831d = $(`<div id="html_fd94489a763690e6d412eee65ac9831d" style="width: 100.0%; height: 100.0%;">         <b>Ben Tuman Steak & Bakery</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrP0pg1Xh67w3W_ufWgBb3iOXZ0fFV9uMvCcXyyoNepuHwW0gSe042xVAyqYWdbKaPZ3DHqqkMPpCxbdphkC2eEL3UQbwBhW8zlgBHM6Yzl9mpVEPgON_B6tQjU2nrujfsL95ZmAgg_rlib1AwPu9q1SLOFb33ZbjnFyPuiOKnsk6lk&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_3131fecafbdea209ce670d4f8cd3998a.setContent(html_fd94489a763690e6d412eee65ac9831d);
-            
-        
-
-        marker_9116eab8d489d374c91544672dabd967.bindPopup(popup_3131fecafbdea209ce670d4f8cd3998a)
-        ;
-
-        
-    
-    
-            var marker_f264f58484c1cf557d80106f83dd7b11 = L.marker(
-                [-6.9808175, 110.4171161],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_80bc00a35ff5dec07d224b5ef3a1f54a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_ea28fe092abf18cce8e9a3519b8c9636 = $(`<div id="html_ea28fe092abf18cce8e9a3519b8c9636" style="width: 100.0%; height: 100.0%;">         <b>Palace Fine Cuisine & Ballroom</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrAuYb8cBGItWM5yHadmQxxKxVCBG9iFtfDldmItw3j9FdExUSd88b9xATVb5RLkX0GUDux5udrg42bd4LgSx0d3fuD4HuA4A5QRHHEqaKjLfLpKgop72S8FWXJHVmrQg6A8eMViOt7y8ISkidzk_MoI5Zq3ahBGQHvMC44IW4W8gA-&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_80bc00a35ff5dec07d224b5ef3a1f54a.setContent(html_ea28fe092abf18cce8e9a3519b8c9636);
-            
-        
-
-        marker_f264f58484c1cf557d80106f83dd7b11.bindPopup(popup_80bc00a35ff5dec07d224b5ef3a1f54a)
-        ;
-
-        
-    
-    
-            var marker_e18f833e621e50dcf216f34ef05d1cb1 = L.marker(
-                [-6.969176794042751, 110.48201694956126],
-                {}
-            ).addTo(marker_cluster_7349514355506e4eec859b6489a53d28);
-        
-    
-        var popup_9f75e8e4ed9776f52eb7e31ea612a974 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_3b59184b0665961e429cdf2650e6553d = $(`<div id="html_3b59184b0665961e429cdf2650e6553d" style="width: 100.0%; height: 100.0%;">         <b>GEPREK SOHOR Genuk</b><br>         tes<br>         <img src='https://lh5.googleusercontent.com/p/AF1QipMWQ20rTIMQaGk4LwrtEfKIzZWtJ0MAle_apuP_=w408-h544-k-no' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga:  1–25.000         </div>`)[0];
-                popup_9f75e8e4ed9776f52eb7e31ea612a974.setContent(html_3b59184b0665961e429cdf2650e6553d);
-            
-        
-
-        marker_e18f833e621e50dcf216f34ef05d1cb1.bindPopup(popup_9f75e8e4ed9776f52eb7e31ea612a974)
-        ;
-
-        
-    
-    
-            marker_cluster_7349514355506e4eec859b6489a53d28.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
-        
-    
-            tile_layer_cee821116bbd3a59e8894333231db18f.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
-        
     
-            geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            marker_cluster_7349514355506e4eec859b6489a53d28.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            var marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0 = L.markerClusterGroup(
+            var marker_cluster_d4090f8fb937f8e166cb54868b84dff6 = L.markerClusterGroup(
                 {}
             );
         
     
-            var marker_154ac1a193139468412cc7c45beb3bb1 = L.marker(
-                [-6.97819, 110.423082],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-        var popup_9ed874f01ef4179278c74d85e0fcf1a2 = L.popup({"maxWidth": "100%"});
-
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
-            
-                var html_32be7b6905fe421e7c414799fa5b6198 = $(`<div id="html_32be7b6905fe421e7c414799fa5b6198" style="width: 100.0%; height: 100.0%;">         <b>Quest Hotel Simpang Lima Semarang</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpO3ZZ8iSuOdfYfzpHgacViFkWzwYdEbD7BDAkFRV819d6ogeXnFUc_E943OZPaa6FGXwydmU_m4b-LILq-sltwmaUViaguMx5oAAkwdUCQf_2tO4N1YGwDUqYuDdO11I-OzTs9LPW_Ogo795r42RptPceUYGpm_95MtbokszrVy5nM&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_9ed874f01ef4179278c74d85e0fcf1a2.setContent(html_32be7b6905fe421e7c414799fa5b6198);
-            
-        
-
-        marker_154ac1a193139468412cc7c45beb3bb1.bindPopup(popup_9ed874f01ef4179278c74d85e0fcf1a2)
-        ;
-
-        
-    
-    
-            var marker_9774f3473ca6138f7d4be6f1d6d291ea = L.marker(
-                [-7.004878000000001, 110.413186],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_33f1fa93a1ecd2376b6e17e8efec8e31 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_99b0c90670a08d2dce4df33acd091528 = $(`<div id="html_99b0c90670a08d2dce4df33acd091528" style="width: 100.0%; height: 100.0%;">         <b>Hotel NEO Candi Simpang Lima - Semarang</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpeB-snrbY4hFex8rTggZskgY2bJn61hZxBkstJjhBTYOzGJBXu8Hd92issG_0E1Lpx3f_c29eFyEgjc-kIvTgj2rM1CydtjXOsG8DqtW7eB_xEUEPbxd4Hm9ZKlnvP1_PUbUopM-SMoUwIO-ElGFKIsBWLRgWagaspMa5gAKURW11K&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_33f1fa93a1ecd2376b6e17e8efec8e31.setContent(html_99b0c90670a08d2dce4df33acd091528);
-            
-        
-
-        marker_9774f3473ca6138f7d4be6f1d6d291ea.bindPopup(popup_33f1fa93a1ecd2376b6e17e8efec8e31)
-        ;
-
-        
-    
-    
-            var marker_3252f834d303761204e1dcc8cebbd17a = L.marker(
-                [-6.986611799999999, 110.4155964],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_b58eb511e04f1f94e1f9fc95d060064b = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_1cae0b343c2413ceabff9633bba1b9c6 = $(`<div id="html_1cae0b343c2413ceabff9633bba1b9c6" style="width: 100.0%; height: 100.0%;">         <b>Pandanaran Hotel Simpang Lima</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWqYHL8jg4rDdfmf33EDI2K1G1zzJ9Alxz0hE6bKSWNfwx7dCCir3Xn_29r8zxV16TARIP8OmJo1eHKZInyFNh9nv9SwxqdY1yWPxf4j_yfGlv0D2M60cmqsTJ3eBGq_9ZQIVlQtZWw90IoZnKatqX0J2qMaBDaCvqk0HhPHQz5w8xOr&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_b58eb511e04f1f94e1f9fc95d060064b.setContent(html_1cae0b343c2413ceabff9633bba1b9c6);
-            
-        
-
-        marker_3252f834d303761204e1dcc8cebbd17a.bindPopup(popup_b58eb511e04f1f94e1f9fc95d060064b)
-        ;
-
-        
-    
-    
-            var marker_cd6cb5a12877d8cef89bdf8faf873e35 = L.marker(
-                [-7.048015099999999, 110.420233],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_1cf369f1c29f8b90a8e8885859684d32 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_68ae67eba76bfa191f23064fb62e3986 = $(`<div id="html_68ae67eba76bfa191f23064fb62e3986" style="width: 100.0%; height: 100.0%;">         <b>Swiss House Setiabudi</b><br>         bakery, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpuSGvqgJhM5-nb60dBvjj8o99gOitwOork5gl4_YE_7owJt-nVxvsTBesPrLLwPUiEqydtXHy2a0JtLDpcsWejwLKu8uRGqGM6AKfoyyxbA9rBl8yARsHaiqfY4_hG_opiqT5dKe5OXF5ak0UmFJ8EMVN9BS7R-qsYQj2h6mbE1l6g&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_1cf369f1c29f8b90a8e8885859684d32.setContent(html_68ae67eba76bfa191f23064fb62e3986);
-            
-        
-
-        marker_cd6cb5a12877d8cef89bdf8faf873e35.bindPopup(popup_1cf369f1c29f8b90a8e8885859684d32)
-        ;
-
-        
-    
-    
-            var marker_6908af60c7cb374a452d892aecb8c68e = L.marker(
-                [-6.9888925, 110.4319576],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_42739dfdf44cab8574148a38fae6367a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_fa3455a7b958ab66c63c16fe04487d95 = $(`<div id="html_fa3455a7b958ab66c63c16fe04487d95" style="width: 100.0%; height: 100.0%;">         <b>Ayam Goreng Semarang</b><br>         meal_takeaway, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWru32az4q7ljRo6wHCSDN4n1tmJ0oEMbgwk0MprpB5d9Xy4DcfwsRaGjYjZQvODjsCYIADPqk3YQP8Oup88wbRllJJ924WP1zddxf6vlkZyXZCaI_5EZcpNnwofF0ToSrq0pvMtVCOWd8bFHM2iUTwgPXnAPQxa0k3YOGn4GA0Mkory&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_42739dfdf44cab8574148a38fae6367a.setContent(html_fa3455a7b958ab66c63c16fe04487d95);
-            
-        
-
-        marker_6908af60c7cb374a452d892aecb8c68e.bindPopup(popup_42739dfdf44cab8574148a38fae6367a)
-        ;
-
-        
-    
-    
-            var marker_248fc3f77a43ffe64b8de406575a72ad = L.marker(
-                [-6.9986497, 110.4222963],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_930c1aab80448e1f7d05d5a61286823c = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_62c613a30c1dc962aec6adbb175b028c = $(`<div id="html_62c613a30c1dc962aec6adbb175b028c" style="width: 100.0%; height: 100.0%;">         <b>Hotel Ibrahim Syariah Simpang Lima</b><br>         mosque, cafe, electronics_store, lodging, place_of_worship, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWoL5Jl_M4pf0NB7fAcSiRgUI3zooz5ZgeStnda-JJoDhBjtG21rN-gz_5U9GtL6qu2WHOLk4srJP85m5RybZ8Zbm-tPhqL6nXcEbvl9sRmFOU2NJuCkiQyWU9V6_2a0B1G1TwEWn3838b6uPdVCYAemisaI8op-XX2toib0T0NmqOxH&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_930c1aab80448e1f7d05d5a61286823c.setContent(html_62c613a30c1dc962aec6adbb175b028c);
-            
-        
-
-        marker_248fc3f77a43ffe64b8de406575a72ad.bindPopup(popup_930c1aab80448e1f7d05d5a61286823c)
-        ;
-
-        
-    
-    
-            var marker_c879d18449b796a76e26cf74ac8ddf66 = L.marker(
-                [-6.9890892, 110.4259301],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_2e9bd4f084d1756ad9a24c38d50ed4c2 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_b4a99f6ba94729f2a8b16c8aa0877c54 = $(`<div id="html_b4a99f6ba94729f2a8b16c8aa0877c54" style="width: 100.0%; height: 100.0%;">         <b>Soto Mbak Lin</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpqPHT3_CcreEr_vVgU96yK3Qj4P1NqyGugkGI-fTbIQyQHtCk2ceh5ugYGSaLkMVbB_GzCAY8z7XK8IGZh7UoLe-nUhv4HbRcl6XTQQiZHHkTSi5BLcgZasVgayMMLgz4UyEJcnfaQtnjGFmBn061eNSb-UoPy-giKLFR5xng6I0S3&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 1         </div>`)[0];
-                popup_2e9bd4f084d1756ad9a24c38d50ed4c2.setContent(html_b4a99f6ba94729f2a8b16c8aa0877c54);
-            
-        
-
-        marker_c879d18449b796a76e26cf74ac8ddf66.bindPopup(popup_2e9bd4f084d1756ad9a24c38d50ed4c2)
-        ;
-
-        
-    
-    
-            var marker_541f2de15963b96bcc6f1b3e28698822 = L.marker(
-                [-7.0515875, 110.4227031],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_6694832bc70ef8eba7c509b38e63eb6b = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_296b8c0ba32e2de4911d289ccce62757 = $(`<div id="html_296b8c0ba32e2de4911d289ccce62757" style="width: 100.0%; height: 100.0%;">         <b>Bakmi Setiabudi</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWp7pAEq2koIE6qlv5afdfhogQ5jaCaIuJVW3JpbGvCc7aMz-4fOqwYG0_1bbxcgshraNxkMB3YgK8tVneceBdXleGgOGwrLS1Py3hKADZVltKMUrTYlshtDFi_el3WhUbBMMBH5TjS4uPVBxvdRMmD_cBSVO5W45RZz-Q1849HsiQ3z&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_6694832bc70ef8eba7c509b38e63eb6b.setContent(html_296b8c0ba32e2de4911d289ccce62757);
-            
-        
-
-        marker_541f2de15963b96bcc6f1b3e28698822.bindPopup(popup_6694832bc70ef8eba7c509b38e63eb6b)
-        ;
-
-        
-    
-    
-            var marker_d118b31bcbd1c99b034a7b5f73b121ce = L.marker(
-                [-7.0620105, 110.4413918],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_1a705fd28bb109dd91412945e5ae8798 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_c3e5003483b8e3fc7164955dc54bf23e = $(`<div id="html_c3e5003483b8e3fc7164955dc54bf23e" style="width: 100.0%; height: 100.0%;">         <b>Gondang Raya Restaurant</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrSM2rrW8lnFPXCUtZXVTBPCtbfJI9Dmc4mtc8hwfHe0iFXcfMGdcwlHFe9eBWrnRjLPz9UGtenhtTXwAw58KN_UIjUA9jC-pAdrwc1bUYl9-4ngCfrxvcS4XYhNZ4kMMh61yLY_ztQIvvgVH5rKeDnO6CrDKQ0wE3PGkjECWZNTfNr&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 1         </div>`)[0];
-                popup_1a705fd28bb109dd91412945e5ae8798.setContent(html_c3e5003483b8e3fc7164955dc54bf23e);
-            
-        
-
-        marker_d118b31bcbd1c99b034a7b5f73b121ce.bindPopup(popup_1a705fd28bb109dd91412945e5ae8798)
-        ;
-
-        
-    
-    
-            var marker_1df8a54dfa734be0174e0531f8875ebc = L.marker(
-                [-7.0178121, 110.4660295],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_aadb48502a6613dd3341dd5a854f7af7 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_be4ee20e6786271567c960453e407cac = $(`<div id="html_be4ee20e6786271567c960453e407cac" style="width: 100.0%; height: 100.0%;">         <b>Bakso Barokah Surabaya</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpaGNWmjjaiKbzNb974PSq6YyAQjtayM05SkC_v5pFoXUiBIuhIMZWW4m3RCXvxrrxaSlgpkCFHRk-u4ZpeVvx_koyosX9I23cUcY2OP2BXUkBJIQgiLLtxIkqXfKorBIduCao0gXDCAR8_9_P13FUtV8G2aG3DEr7i1FIFvlPsY-rT&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_aadb48502a6613dd3341dd5a854f7af7.setContent(html_be4ee20e6786271567c960453e407cac);
-            
-        
-
-        marker_1df8a54dfa734be0174e0531f8875ebc.bindPopup(popup_aadb48502a6613dd3341dd5a854f7af7)
-        ;
-
-        
-    
-    
-            var marker_6e5f41bae434101fdcf9a8c77a971408 = L.marker(
-                [-6.962044, 110.3860703],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_dc2f48d58d356339ffc66e65f629731a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_b88fb9b244b2366ce01918442463da7b = $(`<div id="html_b88fb9b244b2366ce01918442463da7b" style="width: 100.0%; height: 100.0%;">         <b>Restoran Kampung Laut</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWobmPFBQD6RKpu0IFs-4rTHXWLW9CrCPee-imJx4BE5WNUreiy-VBBQGVNmTOno5mDEKnuMWyHOlGQGazJVjFcSh199NqJB--Z3OM9NS2fPltlv8LCBHlQ6KL_VZhvMfusqap7o4QXHHW0K2rpCgVTXfnA3jHe9IwHsjx_qF2XqC0yj&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_dc2f48d58d356339ffc66e65f629731a.setContent(html_b88fb9b244b2366ce01918442463da7b);
-            
-        
-
-        marker_6e5f41bae434101fdcf9a8c77a971408.bindPopup(popup_dc2f48d58d356339ffc66e65f629731a)
-        ;
-
-        
-    
-    
-            var marker_3520877bce249bdf2eb6d7fd7c80680f = L.marker(
-                [-6.9716394, 110.4224022],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_a0d472994fac78bb3e2ba5431e73d476 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_50f81b0361b5b708da1b5acf8278452a = $(`<div id="html_50f81b0361b5b708da1b5acf8278452a" style="width: 100.0%; height: 100.0%;">         <b>RM. Simpang Raya (Since1978)</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWq_sXWn8m6wQ9oTjyaXhmo5iJMlgtKPau1c0cMLJF-FYu_zGyartssrAuMKTUzKQCTFBKUKQuksXL4xafVJflU55kcZkYDmMfIF0jsnyLnZok5-WTfekD1AuX-Cv02okoafYc1-my-A773sPMIy5hZAPEZ6BzGHSl9nbjJavP3yvhEk&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_a0d472994fac78bb3e2ba5431e73d476.setContent(html_50f81b0361b5b708da1b5acf8278452a);
-            
-        
-
-        marker_3520877bce249bdf2eb6d7fd7c80680f.bindPopup(popup_a0d472994fac78bb3e2ba5431e73d476)
-        ;
-
-        
-    
-    
-            var marker_5572dff0ae671da52809f4ae5093732c = L.marker(
-                [-6.98863, 110.423835],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_8c9f8e22aad98ebb149068043487cffb = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_3dcd781732da2679099a6e8623493e9b = $(`<div id="html_3dcd781732da2679099a6e8623493e9b" style="width: 100.0%; height: 100.0%;">         <b>KFC Citraland Semarang</b><br>         cafe, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWq3UwTYqWPN-I65T9eO8KxzUTNznpCwAUNZyo1f0qISFwH8mpEAdlVGiFwMVqW4kpCkrYyN6zqAoChoo1AF0aVDjz_6XhEoNWfa-Suo-7kxfXY0-ZGSQKnHtQLUM6YaY6mzxvUwkY24zH27fKwMWoGftGqoT95Ro3nxiVz61u14cokU&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_8c9f8e22aad98ebb149068043487cffb.setContent(html_3dcd781732da2679099a6e8623493e9b);
-            
-        
-
-        marker_5572dff0ae671da52809f4ae5093732c.bindPopup(popup_8c9f8e22aad98ebb149068043487cffb)
-        ;
-
-        
-    
-    
-            var marker_61966a525eb3a89bf712204dc39a488c = L.marker(
-                [-7.001459000000001, 110.4183664],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_fc10dabc6f38a9c1565b730243b9c1b2 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_0fa8e2bfa026729f715e369c9569f858 = $(`<div id="html_0fa8e2bfa026729f715e369c9569f858" style="width: 100.0%; height: 100.0%;">         <b>Valle Pizza E Resto</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWp91uLA4Gxz-OGgXWH5h-M768QaRYU-70GpQ3vyt-l38fKj8AtU7t91JUlE61PlJARThi-uyeK-rzSJ9PuQ6-KBWRrqUi0BukiqzIwh0lprWbpsBpB310KTNvOTWavHDWWFMRiEQOpT-3XmmwQZrTU_1VM_s1mPhYKq0et5Uz9SoVzB&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_fc10dabc6f38a9c1565b730243b9c1b2.setContent(html_0fa8e2bfa026729f715e369c9569f858);
-            
-        
-
-        marker_61966a525eb3a89bf712204dc39a488c.bindPopup(popup_fc10dabc6f38a9c1565b730243b9c1b2)
-        ;
-
-        
-    
-    
-            var marker_b69437c8bb691e8fe484fb5fb418fd33 = L.marker(
-                [-6.988922999999999, 110.4256999],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_1570e5c10fed6f4585defcd5c0dddecf = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_c1162d9cb4d43d53671baebced586550 = $(`<div id="html_c1162d9cb4d43d53671baebced586550" style="width: 100.0%; height: 100.0%;">         <b>RV cafe 24 hours & Swingle Bar</b><br>         cafe, bar, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpDR19kXr5_lCtlwRN_hl_MH4RHdi1kfL0H-Uj-mGvGcAsyqZeg32Qsj1kPuw6su3WmNE8F84H7T7SOGw6a_oF73uGKQBLNjjdXAOyP00P-AUkb1vvyRKNVoNjAbRALg_ghQRGmJELtbXigT0o4i9GXjEWjR92SWF-SjJsNJgurrtgR&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_1570e5c10fed6f4585defcd5c0dddecf.setContent(html_c1162d9cb4d43d53671baebced586550);
-            
-        
-
-        marker_b69437c8bb691e8fe484fb5fb418fd33.bindPopup(popup_1570e5c10fed6f4585defcd5c0dddecf)
-        ;
-
-        
-    
-    
-            var marker_72745f3fcdd8e6ef1517bdf9cc0c3e85 = L.marker(
-                [-6.9785355, 110.4157739],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_6ed000d14eaf2ef93cae1249e7b60c92 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_424e7cc76b2a07a55f27f70a214d2779 = $(`<div id="html_424e7cc76b2a07a55f27f70a214d2779" style="width: 100.0%; height: 100.0%;">         <b>HokBen Paragon City Mall Semarang</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWqfjf0kq_o4qHX4T5G6hBpNwBjHlKE2-rxsS57TCU-BcrJTPEUMe0mgjnWQ3CfhBXpQ33RrTw1ETCdUTyUa-fCz4-Bn8sScp2SENZYjOVRZHjHOkHNvL2OWzNuoxok_8rI0pOCbDtOwa8R4x-9zIoN57hG-WLhq0z73oK0g80w0-QRK&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_6ed000d14eaf2ef93cae1249e7b60c92.setContent(html_424e7cc76b2a07a55f27f70a214d2779);
-            
-        
-
-        marker_72745f3fcdd8e6ef1517bdf9cc0c3e85.bindPopup(popup_6ed000d14eaf2ef93cae1249e7b60c92)
-        ;
-
-        
-    
-    
-            var marker_728b7b1d237b439f66637d9501a5e695 = L.marker(
-                [-6.9891955, 110.4186309],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_4940e9f5ae286960d28b321dc471cbff = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_cc6ab3c6467462d2724332f6d21f5a38 = $(`<div id="html_cc6ab3c6467462d2724332f6d21f5a38" style="width: 100.0%; height: 100.0%;">         <b>Shabu Zen</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWoovvHwLSiMULcxXMTeEiHEXE_xMKNbtvQUxv3d7ymwRi0_VxpXJTK-OQTSJi060EwpoAg4jdKMxmNxwRRk8904rDdY00QOsUxGLaRQKKZXLcPVQrUs5xr-wF2JPPmEFBwine8sRHZkHvpB5b5cPqNbUBuLEt0XYmfz247ZU5sNzxs&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_4940e9f5ae286960d28b321dc471cbff.setContent(html_cc6ab3c6467462d2724332f6d21f5a38);
-            
-        
-
-        marker_728b7b1d237b439f66637d9501a5e695.bindPopup(popup_4940e9f5ae286960d28b321dc471cbff)
-        ;
-
-        
-    
-    
-            var marker_1865f3fc1ff8ecacefcc796f5252ea12 = L.marker(
-                [-7.027574599999999, 110.4182634],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_e5bbbc3cc193dec422482935f187b16c = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_6900fc21ac72d004e2fa33af5c0d3172 = $(`<div id="html_6900fc21ac72d004e2fa33af5c0d3172" style="width: 100.0%; height: 100.0%;">         <b>Sate & Gule Kambing 29 - Teuku Umar</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpvHTe_CFHDL-ObdDuxmy5ehaXtHZiU4FMrdgSx-06HVDbRiS2a5Vf-cI5m1XAfKblziopjmi060tdg0VTtig1N3SfObLTjJuOzdTEL-gzdEjYBTtiXZ_WNYG26xQIWwjT_s7GAlkw_OImudH5GrTHAOBe3Eid2T0dDjP04u5WwnrqH&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_e5bbbc3cc193dec422482935f187b16c.setContent(html_6900fc21ac72d004e2fa33af5c0d3172);
-            
-        
-
-        marker_1865f3fc1ff8ecacefcc796f5252ea12.bindPopup(popup_e5bbbc3cc193dec422482935f187b16c)
-        ;
-
-        
-    
-    
-            var marker_048a3292f4a7e5e155b496dad139fb08 = L.marker(
-                [-6.974852299999999, 110.4145716],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_7aae7a58fcf01de2e7ae5860bb76eabe = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_5fc5b6c83cd6e7eb6ec186a6143f28ad = $(`<div id="html_5fc5b6c83cd6e7eb6ec186a6143f28ad" style="width: 100.0%; height: 100.0%;">         <b>Ben Tuman Steak & Bakery</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrP0pg1Xh67w3W_ufWgBb3iOXZ0fFV9uMvCcXyyoNepuHwW0gSe042xVAyqYWdbKaPZ3DHqqkMPpCxbdphkC2eEL3UQbwBhW8zlgBHM6Yzl9mpVEPgON_B6tQjU2nrujfsL95ZmAgg_rlib1AwPu9q1SLOFb33ZbjnFyPuiOKnsk6lk&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_7aae7a58fcf01de2e7ae5860bb76eabe.setContent(html_5fc5b6c83cd6e7eb6ec186a6143f28ad);
-            
-        
-
-        marker_048a3292f4a7e5e155b496dad139fb08.bindPopup(popup_7aae7a58fcf01de2e7ae5860bb76eabe)
-        ;
-
-        
-    
-    
-            var marker_976347f1fd96b8636bbb7485b5498207 = L.marker(
-                [-6.9808175, 110.4171161],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_8dca6da8f9b2becd9bb20b735acaa178 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_b8830471d8775de8fde3597b4f2feced = $(`<div id="html_b8830471d8775de8fde3597b4f2feced" style="width: 100.0%; height: 100.0%;">         <b>Palace Fine Cuisine & Ballroom</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrAuYb8cBGItWM5yHadmQxxKxVCBG9iFtfDldmItw3j9FdExUSd88b9xATVb5RLkX0GUDux5udrg42bd4LgSx0d3fuD4HuA4A5QRHHEqaKjLfLpKgop72S8FWXJHVmrQg6A8eMViOt7y8ISkidzk_MoI5Zq3ahBGQHvMC44IW4W8gA-&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_8dca6da8f9b2becd9bb20b735acaa178.setContent(html_b8830471d8775de8fde3597b4f2feced);
-            
-        
-
-        marker_976347f1fd96b8636bbb7485b5498207.bindPopup(popup_8dca6da8f9b2becd9bb20b735acaa178)
-        ;
-
-        
-    
-    
-            var marker_bc2a69a5d190b414b5331915a6140da8 = L.marker(
-                [-6.969176794042751, 110.48201694956126],
-                {}
-            ).addTo(marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0);
-        
-    
-        var popup_7b9f7cea28a562f38fc64782ce5264a7 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_da27aa54dc0c3631a886c4d55e233633 = $(`<div id="html_da27aa54dc0c3631a886c4d55e233633" style="width: 100.0%; height: 100.0%;">         <b>GEPREK SOHOR Genuk</b><br>         tes<br>         <img src='https://lh5.googleusercontent.com/p/AF1QipMWQ20rTIMQaGk4LwrtEfKIzZWtJ0MAle_apuP_=w408-h544-k-no' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga:  1–25.000         </div>`)[0];
-                popup_7b9f7cea28a562f38fc64782ce5264a7.setContent(html_da27aa54dc0c3631a886c4d55e233633);
-            
-        
-
-        marker_bc2a69a5d190b414b5331915a6140da8.bindPopup(popup_7b9f7cea28a562f38fc64782ce5264a7)
-        ;
-
-        
-    
-    
-            marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
-        
-    
-            tile_layer_cee821116bbd3a59e8894333231db18f.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
-        
     
-            geo_json_1bae81e04a6acf7cb3ede1ea8f6cacdd.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            marker_cluster_1d1a31a47b35226ff4236ec6d5d9b96c.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            marker_cluster_7349514355506e4eec859b6489a53d28.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            marker_cluster_74db2953c99a1390ce70bb70d8d6a4e0.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
-            var marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8 = L.markerClusterGroup(
+            var marker_cluster_878f5513aa3391102e3f51013180379d = L.markerClusterGroup(
                 {}
             );
         
     
-            var marker_8c8864593ac5488b85b3c970ffa7c85d = L.marker(
-                [-6.97819, 110.423082],
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_b4e91269a15ed0a489b382ec28c5ae84 = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_bc356ade86647236d2dc0a2c8093fdf9 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_7c28f2f82abafaad33a065b3d5715bcd = $(`<div id="html_7c28f2f82abafaad33a065b3d5715bcd" style="width: 100.0%; height: 100.0%;">         <b>Quest Hotel Simpang Lima Semarang</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpO3ZZ8iSuOdfYfzpHgacViFkWzwYdEbD7BDAkFRV819d6ogeXnFUc_E943OZPaa6FGXwydmU_m4b-LILq-sltwmaUViaguMx5oAAkwdUCQf_2tO4N1YGwDUqYuDdO11I-OzTs9LPW_Ogo795r42RptPceUYGpm_95MtbokszrVy5nM&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_bc356ade86647236d2dc0a2c8093fdf9.setContent(html_7c28f2f82abafaad33a065b3d5715bcd);
-            
-        
-
-        marker_8c8864593ac5488b85b3c970ffa7c85d.bindPopup(popup_bc356ade86647236d2dc0a2c8093fdf9)
-        ;
-
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
     
-            var marker_b87b7b1d25a33caaaab5a7d9bdc7aa0e = L.marker(
-                [-7.004878000000001, 110.413186],
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84 = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_84d205b96dacc17d7f83c85126fad428 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_cfcf40137793b12d82605823a57b0547 = $(`<div id="html_cfcf40137793b12d82605823a57b0547" style="width: 100.0%; height: 100.0%;">         <b>Hotel NEO Candi Simpang Lima - Semarang</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpeB-snrbY4hFex8rTggZskgY2bJn61hZxBkstJjhBTYOzGJBXu8Hd92issG_0E1Lpx3f_c29eFyEgjc-kIvTgj2rM1CydtjXOsG8DqtW7eB_xEUEPbxd4Hm9ZKlnvP1_PUbUopM-SMoUwIO-ElGFKIsBWLRgWagaspMa5gAKURW11K&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_84d205b96dacc17d7f83c85126fad428.setContent(html_cfcf40137793b12d82605823a57b0547);
-            
-        
-
-        marker_b87b7b1d25a33caaaab5a7d9bdc7aa0e.bindPopup(popup_84d205b96dacc17d7f83c85126fad428)
-        ;
-
+            marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
     
-            var marker_b7e4decaaac44ab6107c8da564f61cf4 = L.marker(
-                [-6.986611799999999, 110.4155964],
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_528c46059a580dd29cfee98004e717d3 = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_4bf0672c3a15b4d6dc1cc947998b891a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_05cd2f0120e25c985706bc8a1a25e950 = $(`<div id="html_05cd2f0120e25c985706bc8a1a25e950" style="width: 100.0%; height: 100.0%;">         <b>Pandanaran Hotel Simpang Lima</b><br>         lodging, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWqYHL8jg4rDdfmf33EDI2K1G1zzJ9Alxz0hE6bKSWNfwx7dCCir3Xn_29r8zxV16TARIP8OmJo1eHKZInyFNh9nv9SwxqdY1yWPxf4j_yfGlv0D2M60cmqsTJ3eBGq_9ZQIVlQtZWw90IoZnKatqX0J2qMaBDaCvqk0HhPHQz5w8xOr&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_4bf0672c3a15b4d6dc1cc947998b891a.setContent(html_05cd2f0120e25c985706bc8a1a25e950);
-            
-        
-
-        marker_b7e4decaaac44ab6107c8da564f61cf4.bindPopup(popup_4bf0672c3a15b4d6dc1cc947998b891a)
-        ;
-
+            marker_cluster_528c46059a580dd29cfee98004e717d3.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
     
-            var marker_c7667e40a8a88c3aeabd8c01fba1e8f9 = L.marker(
-                [-7.048015099999999, 110.420233],
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_528c46059a580dd29cfee98004e717d3.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_4d70f3a35dd056fa3242ba6917bea64b = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_343efad779dfcceee38fae840b13be24 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_726b8c3c1778d5a68a23826a47d9c953 = $(`<div id="html_726b8c3c1778d5a68a23826a47d9c953" style="width: 100.0%; height: 100.0%;">         <b>Swiss House Setiabudi</b><br>         bakery, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpuSGvqgJhM5-nb60dBvjj8o99gOitwOork5gl4_YE_7owJt-nVxvsTBesPrLLwPUiEqydtXHy2a0JtLDpcsWejwLKu8uRGqGM6AKfoyyxbA9rBl8yARsHaiqfY4_hG_opiqT5dKe5OXF5ak0UmFJ8EMVN9BS7R-qsYQj2h6mbE1l6g&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_343efad779dfcceee38fae840b13be24.setContent(html_726b8c3c1778d5a68a23826a47d9c953);
-            
-        
-
-        marker_c7667e40a8a88c3aeabd8c01fba1e8f9.bindPopup(popup_343efad779dfcceee38fae840b13be24)
-        ;
-
+            marker_cluster_4d70f3a35dd056fa3242ba6917bea64b.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
     
-            var marker_79ca9f7c3898c5a39dcd322846b5ee39 = L.marker(
-                [-6.9888925, 110.4319576],
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_528c46059a580dd29cfee98004e717d3.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_4d70f3a35dd056fa3242ba6917bea64b.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_5f32e679347616940984a3693d577949 = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_fa2c5efd580e1e6ce0b424f6d8a08d84 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_84d027490bd890ea1ccd9723c1e5405c = $(`<div id="html_84d027490bd890ea1ccd9723c1e5405c" style="width: 100.0%; height: 100.0%;">         <b>Ayam Goreng Semarang</b><br>         meal_takeaway, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWru32az4q7ljRo6wHCSDN4n1tmJ0oEMbgwk0MprpB5d9Xy4DcfwsRaGjYjZQvODjsCYIADPqk3YQP8Oup88wbRllJJ924WP1zddxf6vlkZyXZCaI_5EZcpNnwofF0ToSrq0pvMtVCOWd8bFHM2iUTwgPXnAPQxa0k3YOGn4GA0Mkory&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_fa2c5efd580e1e6ce0b424f6d8a08d84.setContent(html_84d027490bd890ea1ccd9723c1e5405c);
-            
-        
-
-        marker_79ca9f7c3898c5a39dcd322846b5ee39.bindPopup(popup_fa2c5efd580e1e6ce0b424f6d8a08d84)
-        ;
-
+            marker_cluster_5f32e679347616940984a3693d577949.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
     
-            var marker_3e066c96977a36a1a100fad23782bcd0 = L.marker(
-                [-6.9986497, 110.4222963],
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_528c46059a580dd29cfee98004e717d3.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_4d70f3a35dd056fa3242ba6917bea64b.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_5f32e679347616940984a3693d577949.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_7456fd2b3c5943f4b6687b26f6f3833c = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_dc99c4a910b9320da73615c77ccca371 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_e7f1e51559f9bdc7cd52664e5a9e8d6e = $(`<div id="html_e7f1e51559f9bdc7cd52664e5a9e8d6e" style="width: 100.0%; height: 100.0%;">         <b>Hotel Ibrahim Syariah Simpang Lima</b><br>         mosque, cafe, electronics_store, lodging, place_of_worship, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWoL5Jl_M4pf0NB7fAcSiRgUI3zooz5ZgeStnda-JJoDhBjtG21rN-gz_5U9GtL6qu2WHOLk4srJP85m5RybZ8Zbm-tPhqL6nXcEbvl9sRmFOU2NJuCkiQyWU9V6_2a0B1G1TwEWn3838b6uPdVCYAemisaI8op-XX2toib0T0NmqOxH&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_dc99c4a910b9320da73615c77ccca371.setContent(html_e7f1e51559f9bdc7cd52664e5a9e8d6e);
-            
-        
-
-        marker_3e066c96977a36a1a100fad23782bcd0.bindPopup(popup_dc99c4a910b9320da73615c77ccca371)
-        ;
-
+            marker_cluster_7456fd2b3c5943f4b6687b26f6f3833c.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
     
-            var marker_e97eb1a9c3e6dace1417305795c0ff24 = L.marker(
-                [-6.9890892, 110.4259301],
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_528c46059a580dd29cfee98004e717d3.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_4d70f3a35dd056fa3242ba6917bea64b.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_5f32e679347616940984a3693d577949.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_7456fd2b3c5943f4b6687b26f6f3833c.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_a14f2aacb99e2ed4f249ac3acbc69bda = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_a31bcad504729303710873712e17a7ff = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_18c4bc14c1ebf81afa0adf9c80e3c3c7 = $(`<div id="html_18c4bc14c1ebf81afa0adf9c80e3c3c7" style="width: 100.0%; height: 100.0%;">         <b>Soto Mbak Lin</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpqPHT3_CcreEr_vVgU96yK3Qj4P1NqyGugkGI-fTbIQyQHtCk2ceh5ugYGSaLkMVbB_GzCAY8z7XK8IGZh7UoLe-nUhv4HbRcl6XTQQiZHHkTSi5BLcgZasVgayMMLgz4UyEJcnfaQtnjGFmBn061eNSb-UoPy-giKLFR5xng6I0S3&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 1         </div>`)[0];
-                popup_a31bcad504729303710873712e17a7ff.setContent(html_18c4bc14c1ebf81afa0adf9c80e3c3c7);
-            
-        
-
-        marker_e97eb1a9c3e6dace1417305795c0ff24.bindPopup(popup_a31bcad504729303710873712e17a7ff)
-        ;
-
+            marker_cluster_a14f2aacb99e2ed4f249ac3acbc69bda.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
     
-            var marker_88dd690fa8fbe232a53cb40217bb3780 = L.marker(
-                [-7.0515875, 110.4227031],
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_528c46059a580dd29cfee98004e717d3.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_4d70f3a35dd056fa3242ba6917bea64b.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_5f32e679347616940984a3693d577949.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_7456fd2b3c5943f4b6687b26f6f3833c.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_a14f2aacb99e2ed4f249ac3acbc69bda.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_1d17941c9a6a0c931d61b5fdf04ec784 = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_4e7ab48a4a1587d37f870e595271420f = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f23f90b16840b609030648a1d4d442ac = $(`<div id="html_f23f90b16840b609030648a1d4d442ac" style="width: 100.0%; height: 100.0%;">         <b>Bakmi Setiabudi</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWp7pAEq2koIE6qlv5afdfhogQ5jaCaIuJVW3JpbGvCc7aMz-4fOqwYG0_1bbxcgshraNxkMB3YgK8tVneceBdXleGgOGwrLS1Py3hKADZVltKMUrTYlshtDFi_el3WhUbBMMBH5TjS4uPVBxvdRMmD_cBSVO5W45RZz-Q1849HsiQ3z&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_4e7ab48a4a1587d37f870e595271420f.setContent(html_f23f90b16840b609030648a1d4d442ac);
-            
-        
-
-        marker_88dd690fa8fbe232a53cb40217bb3780.bindPopup(popup_4e7ab48a4a1587d37f870e595271420f)
-        ;
-
+            marker_cluster_1d17941c9a6a0c931d61b5fdf04ec784.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
     
-            var marker_cffa9fa3fd30650db220ae9151c8d4bc = L.marker(
-                [-7.0620105, 110.4413918],
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_528c46059a580dd29cfee98004e717d3.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_4d70f3a35dd056fa3242ba6917bea64b.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_5f32e679347616940984a3693d577949.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_7456fd2b3c5943f4b6687b26f6f3833c.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_a14f2aacb99e2ed4f249ac3acbc69bda.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_1d17941c9a6a0c931d61b5fdf04ec784.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_bc0e80b502417d76a62079df82674f35 = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_11b2c2f8cb06fbb3e3e48b4bc08e8e0d = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_b3ebff3e69bf86feac988e532d4f2c32 = $(`<div id="html_b3ebff3e69bf86feac988e532d4f2c32" style="width: 100.0%; height: 100.0%;">         <b>Gondang Raya Restaurant</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrSM2rrW8lnFPXCUtZXVTBPCtbfJI9Dmc4mtc8hwfHe0iFXcfMGdcwlHFe9eBWrnRjLPz9UGtenhtTXwAw58KN_UIjUA9jC-pAdrwc1bUYl9-4ngCfrxvcS4XYhNZ4kMMh61yLY_ztQIvvgVH5rKeDnO6CrDKQ0wE3PGkjECWZNTfNr&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 1         </div>`)[0];
-                popup_11b2c2f8cb06fbb3e3e48b4bc08e8e0d.setContent(html_b3ebff3e69bf86feac988e532d4f2c32);
-            
-        
-
-        marker_cffa9fa3fd30650db220ae9151c8d4bc.bindPopup(popup_11b2c2f8cb06fbb3e3e48b4bc08e8e0d)
-        ;
-
+            marker_cluster_bc0e80b502417d76a62079df82674f35.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
     
+            tile_layer_b63a68ad8377408643494a85e30e7c94.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
     
-            var marker_50212f4c4f7b7509d77f808ba30df2c3 = L.marker(
-                [-7.0178121, 110.4660295],
+            geo_json_78a71a5f1eedc892d718babf8538a724.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_9321c8f546c804918382f8ea3af2a3a5.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_38c351fb96f1b7386a4b212119bec93a.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d4090f8fb937f8e166cb54868b84dff6.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_878f5513aa3391102e3f51013180379d.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_b4e91269a15ed0a489b382ec28c5ae84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_d054c879b5cdd3f3fbfe83a0c219fb84.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_528c46059a580dd29cfee98004e717d3.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_4d70f3a35dd056fa3242ba6917bea64b.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_5f32e679347616940984a3693d577949.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_7456fd2b3c5943f4b6687b26f6f3833c.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_a14f2aacb99e2ed4f249ac3acbc69bda.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_1d17941c9a6a0c931d61b5fdf04ec784.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            marker_cluster_bc0e80b502417d76a62079df82674f35.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
+        
+    
+            var marker_cluster_c8617ce404466924ec3b05e57fd131bc = L.markerClusterGroup(
                 {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
+            );
         
     
-        var popup_6eb3872404da744589e8ff188f077903 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_e63bb7c02f548a93722a5bdbe55b0027 = $(`<div id="html_e63bb7c02f548a93722a5bdbe55b0027" style="width: 100.0%; height: 100.0%;">         <b>Bakso Barokah Surabaya</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpaGNWmjjaiKbzNb974PSq6YyAQjtayM05SkC_v5pFoXUiBIuhIMZWW4m3RCXvxrrxaSlgpkCFHRk-u4ZpeVvx_koyosX9I23cUcY2OP2BXUkBJIQgiLLtxIkqXfKorBIduCao0gXDCAR8_9_P13FUtV8G2aG3DEr7i1FIFvlPsY-rT&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_6eb3872404da744589e8ff188f077903.setContent(html_e63bb7c02f548a93722a5bdbe55b0027);
-            
-        
-
-        marker_50212f4c4f7b7509d77f808ba30df2c3.bindPopup(popup_6eb3872404da744589e8ff188f077903)
-        ;
-
-        
-    
-    
-            var marker_70b41aa3548ffaa4651de83aa284a583 = L.marker(
-                [-6.962044, 110.3860703],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_cc33740e60e676f4dbec0b1d7fd8b42b = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_9a50300414e29b24df2cc103710de669 = $(`<div id="html_9a50300414e29b24df2cc103710de669" style="width: 100.0%; height: 100.0%;">         <b>Restoran Kampung Laut</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWobmPFBQD6RKpu0IFs-4rTHXWLW9CrCPee-imJx4BE5WNUreiy-VBBQGVNmTOno5mDEKnuMWyHOlGQGazJVjFcSh199NqJB--Z3OM9NS2fPltlv8LCBHlQ6KL_VZhvMfusqap7o4QXHHW0K2rpCgVTXfnA3jHe9IwHsjx_qF2XqC0yj&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_cc33740e60e676f4dbec0b1d7fd8b42b.setContent(html_9a50300414e29b24df2cc103710de669);
-            
-        
-
-        marker_70b41aa3548ffaa4651de83aa284a583.bindPopup(popup_cc33740e60e676f4dbec0b1d7fd8b42b)
-        ;
-
-        
-    
-    
-            var marker_a62534430326cb0bb568bce45bc68319 = L.marker(
-                [-6.9716394, 110.4224022],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_136e97b61f68f0923e949b1e0a3ef1db = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_bf2efc0d5cea758bc9cef727c1e1516a = $(`<div id="html_bf2efc0d5cea758bc9cef727c1e1516a" style="width: 100.0%; height: 100.0%;">         <b>RM. Simpang Raya (Since1978)</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWq_sXWn8m6wQ9oTjyaXhmo5iJMlgtKPau1c0cMLJF-FYu_zGyartssrAuMKTUzKQCTFBKUKQuksXL4xafVJflU55kcZkYDmMfIF0jsnyLnZok5-WTfekD1AuX-Cv02okoafYc1-my-A773sPMIy5hZAPEZ6BzGHSl9nbjJavP3yvhEk&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: Tidak diketahui         </div>`)[0];
-                popup_136e97b61f68f0923e949b1e0a3ef1db.setContent(html_bf2efc0d5cea758bc9cef727c1e1516a);
-            
-        
-
-        marker_a62534430326cb0bb568bce45bc68319.bindPopup(popup_136e97b61f68f0923e949b1e0a3ef1db)
-        ;
-
-        
-    
-    
-            var marker_a5de2c55f18c15abad2608af2cf95598 = L.marker(
-                [-6.98863, 110.423835],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_161d76934fdd7676074b0a15ba2b27e0 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_4050d210d89676e261a55dc5658b4e6b = $(`<div id="html_4050d210d89676e261a55dc5658b4e6b" style="width: 100.0%; height: 100.0%;">         <b>KFC Citraland Semarang</b><br>         cafe, restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWq3UwTYqWPN-I65T9eO8KxzUTNznpCwAUNZyo1f0qISFwH8mpEAdlVGiFwMVqW4kpCkrYyN6zqAoChoo1AF0aVDjz_6XhEoNWfa-Suo-7kxfXY0-ZGSQKnHtQLUM6YaY6mzxvUwkY24zH27fKwMWoGftGqoT95Ro3nxiVz61u14cokU&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_161d76934fdd7676074b0a15ba2b27e0.setContent(html_4050d210d89676e261a55dc5658b4e6b);
-            
-        
-
-        marker_a5de2c55f18c15abad2608af2cf95598.bindPopup(popup_161d76934fdd7676074b0a15ba2b27e0)
-        ;
-
-        
-    
-    
-            var marker_1349601cb127cbc22ffc512e20b292a3 = L.marker(
-                [-7.001459000000001, 110.4183664],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_0e3d997abc94426a7cdaaac895e1803c = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_9c35eeae85f0f23d5aa46d404c4a8437 = $(`<div id="html_9c35eeae85f0f23d5aa46d404c4a8437" style="width: 100.0%; height: 100.0%;">         <b>Valle Pizza E Resto</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWp91uLA4Gxz-OGgXWH5h-M768QaRYU-70GpQ3vyt-l38fKj8AtU7t91JUlE61PlJARThi-uyeK-rzSJ9PuQ6-KBWRrqUi0BukiqzIwh0lprWbpsBpB310KTNvOTWavHDWWFMRiEQOpT-3XmmwQZrTU_1VM_s1mPhYKq0et5Uz9SoVzB&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_0e3d997abc94426a7cdaaac895e1803c.setContent(html_9c35eeae85f0f23d5aa46d404c4a8437);
-            
-        
-
-        marker_1349601cb127cbc22ffc512e20b292a3.bindPopup(popup_0e3d997abc94426a7cdaaac895e1803c)
-        ;
-
-        
-    
-    
-            var marker_52dcc94d2a8c3a9896794010b6360a1b = L.marker(
-                [-6.988922999999999, 110.4256999],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_551f92128068cf99cee87bc1414cf7ae = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_9ac57de5ea2ce9bd42c9e910dcf82ce2 = $(`<div id="html_9ac57de5ea2ce9bd42c9e910dcf82ce2" style="width: 100.0%; height: 100.0%;">         <b>RV cafe 24 hours & Swingle Bar</b><br>         cafe, bar, restaurant, point_of_interest, store, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpDR19kXr5_lCtlwRN_hl_MH4RHdi1kfL0H-Uj-mGvGcAsyqZeg32Qsj1kPuw6su3WmNE8F84H7T7SOGw6a_oF73uGKQBLNjjdXAOyP00P-AUkb1vvyRKNVoNjAbRALg_ghQRGmJELtbXigT0o4i9GXjEWjR92SWF-SjJsNJgurrtgR&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_551f92128068cf99cee87bc1414cf7ae.setContent(html_9ac57de5ea2ce9bd42c9e910dcf82ce2);
-            
-        
-
-        marker_52dcc94d2a8c3a9896794010b6360a1b.bindPopup(popup_551f92128068cf99cee87bc1414cf7ae)
-        ;
-
-        
-    
-    
-            var marker_a2697b438b49eb4328a409b73cc19534 = L.marker(
-                [-6.9785355, 110.4157739],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_12913c1d5b75044af80326b73de80444 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_860e8a769c3ed3f68f28c727106cdb37 = $(`<div id="html_860e8a769c3ed3f68f28c727106cdb37" style="width: 100.0%; height: 100.0%;">         <b>HokBen Paragon City Mall Semarang</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWqfjf0kq_o4qHX4T5G6hBpNwBjHlKE2-rxsS57TCU-BcrJTPEUMe0mgjnWQ3CfhBXpQ33RrTw1ETCdUTyUa-fCz4-Bn8sScp2SENZYjOVRZHjHOkHNvL2OWzNuoxok_8rI0pOCbDtOwa8R4x-9zIoN57hG-WLhq0z73oK0g80w0-QRK&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_12913c1d5b75044af80326b73de80444.setContent(html_860e8a769c3ed3f68f28c727106cdb37);
-            
-        
-
-        marker_a2697b438b49eb4328a409b73cc19534.bindPopup(popup_12913c1d5b75044af80326b73de80444)
-        ;
-
-        
-    
-    
-            var marker_4d3270b223c865a762f25ba5faed352a = L.marker(
-                [-6.9891955, 110.4186309],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_decc0dcf0921e7507af7fc1567ec8b60 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_142efac85f8a2e12cf8e3ea532dbb3ee = $(`<div id="html_142efac85f8a2e12cf8e3ea532dbb3ee" style="width: 100.0%; height: 100.0%;">         <b>Shabu Zen</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWoovvHwLSiMULcxXMTeEiHEXE_xMKNbtvQUxv3d7ymwRi0_VxpXJTK-OQTSJi060EwpoAg4jdKMxmNxwRRk8904rDdY00QOsUxGLaRQKKZXLcPVQrUs5xr-wF2JPPmEFBwine8sRHZkHvpB5b5cPqNbUBuLEt0XYmfz247ZU5sNzxs&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_decc0dcf0921e7507af7fc1567ec8b60.setContent(html_142efac85f8a2e12cf8e3ea532dbb3ee);
-            
-        
-
-        marker_4d3270b223c865a762f25ba5faed352a.bindPopup(popup_decc0dcf0921e7507af7fc1567ec8b60)
-        ;
-
-        
-    
-    
-            var marker_86d9ac83f01d08252ef6d2fb08bc6e11 = L.marker(
-                [-7.027574599999999, 110.4182634],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_153e1896926915786dc3845a50d32fdd = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_cef7e904d9a0717c6c164eef0fb6ad4c = $(`<div id="html_cef7e904d9a0717c6c164eef0fb6ad4c" style="width: 100.0%; height: 100.0%;">         <b>Sate & Gule Kambing 29 - Teuku Umar</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWpvHTe_CFHDL-ObdDuxmy5ehaXtHZiU4FMrdgSx-06HVDbRiS2a5Vf-cI5m1XAfKblziopjmi060tdg0VTtig1N3SfObLTjJuOzdTEL-gzdEjYBTtiXZ_WNYG26xQIWwjT_s7GAlkw_OImudH5GrTHAOBe3Eid2T0dDjP04u5WwnrqH&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_153e1896926915786dc3845a50d32fdd.setContent(html_cef7e904d9a0717c6c164eef0fb6ad4c);
-            
-        
-
-        marker_86d9ac83f01d08252ef6d2fb08bc6e11.bindPopup(popup_153e1896926915786dc3845a50d32fdd)
-        ;
-
-        
-    
-    
-            var marker_776d27c7d5d97755e6922cd3acad232a = L.marker(
-                [-6.974852299999999, 110.4145716],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_4a63b2e35f1de705233563d36967e8d5 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_cfdcb82c1df05199347d670b5c10938c = $(`<div id="html_cfdcb82c1df05199347d670b5c10938c" style="width: 100.0%; height: 100.0%;">         <b>Ben Tuman Steak & Bakery</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrP0pg1Xh67w3W_ufWgBb3iOXZ0fFV9uMvCcXyyoNepuHwW0gSe042xVAyqYWdbKaPZ3DHqqkMPpCxbdphkC2eEL3UQbwBhW8zlgBHM6Yzl9mpVEPgON_B6tQjU2nrujfsL95ZmAgg_rlib1AwPu9q1SLOFb33ZbjnFyPuiOKnsk6lk&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 2         </div>`)[0];
-                popup_4a63b2e35f1de705233563d36967e8d5.setContent(html_cfdcb82c1df05199347d670b5c10938c);
-            
-        
-
-        marker_776d27c7d5d97755e6922cd3acad232a.bindPopup(popup_4a63b2e35f1de705233563d36967e8d5)
-        ;
-
-        
-    
-    
-            var marker_847a8b18fd6c60e1e2d3f69dad2d2c97 = L.marker(
-                [-6.9808175, 110.4171161],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_2364ad6eba4a8646a431623c3e44927c = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_81dcea496d70e16d9b8b06f4d04c6bf0 = $(`<div id="html_81dcea496d70e16d9b8b06f4d04c6bf0" style="width: 100.0%; height: 100.0%;">         <b>Palace Fine Cuisine & Ballroom</b><br>         restaurant, point_of_interest, food, establishment<br>         <img src='https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=AdDdOWrAuYb8cBGItWM5yHadmQxxKxVCBG9iFtfDldmItw3j9FdExUSd88b9xATVb5RLkX0GUDux5udrg42bd4LgSx0d3fuD4HuA4A5QRHHEqaKjLfLpKgop72S8FWXJHVmrQg6A8eMViOt7y8ISkidzk_MoI5Zq3ahBGQHvMC44IW4W8gA-&key=AIzaSyCU4mFWGN9UjhKUXYoEfcQR-TLmHfPPN98' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga: 3         </div>`)[0];
-                popup_2364ad6eba4a8646a431623c3e44927c.setContent(html_81dcea496d70e16d9b8b06f4d04c6bf0);
-            
-        
-
-        marker_847a8b18fd6c60e1e2d3f69dad2d2c97.bindPopup(popup_2364ad6eba4a8646a431623c3e44927c)
-        ;
-
-        
-    
-    
-            var marker_0cbe7cc4854703032b9708aff1e0de8b = L.marker(
-                [-6.969176794042751, 110.48201694956126],
-                {}
-            ).addTo(marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8);
-        
-    
-        var popup_ea4a772ca53901dd40d31fbe853395a2 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_cbf5b1de3f3c426f739075532d24f82e = $(`<div id="html_cbf5b1de3f3c426f739075532d24f82e" style="width: 100.0%; height: 100.0%;">         <b>GEPREK SOHOR Genuk</b><br>         tes<br>         <img src='https://lh5.googleusercontent.com/p/AF1QipMWQ20rTIMQaGk4LwrtEfKIzZWtJ0MAle_apuP_=w408-h544-k-no' width='200'><br>         Rating: ⭐⭐⭐⭐⭐ 5/5<br>         Harga:  1–25.000         </div>`)[0];
-                popup_ea4a772ca53901dd40d31fbe853395a2.setContent(html_cbf5b1de3f3c426f739075532d24f82e);
-            
-        
-
-        marker_0cbe7cc4854703032b9708aff1e0de8b.bindPopup(popup_ea4a772ca53901dd40d31fbe853395a2)
-        ;
-
-        
-    
-    
-            marker_cluster_3675340fcee5e4d0daa64a4c768bdfc8.addTo(map_dd0ace61dc45d883980cc72a46449ed2);
+            marker_cluster_c8617ce404466924ec3b05e57fd131bc.addTo(map_9da768abd5bf97790418e3afc4b9c90a);
         
 </script>
 </html>

@@ -1,12 +1,51 @@
 
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
 }
 
+.gradient-text {
+    font-weight: bold;
+    margin-bottom: 3rem;
+    background: linear-gradient(45deg, #FAC67A, #F9E6CF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .orange-text {
+    color: #ff8721;
+    font-weight: bold;
+  }
+  
+  .blue-text {
+    color: #5e1ed3;
+    font-weight: bold;
+  }
+  
+  /* NAVBAR BRAND  */
+  
+.navbar-brand .navbar-brand-text {
+    display: inline-block;
+  
+}
+
+@media (max-width: 768px) {
+    .navbar-brand .navbar-brand-text {
+        display: none;
+    }
+}  
+
+/* END NAVBARBRAND */
+
+#mainNav {
+  box-shadow: none !important;
+  border: none; /* Opsional, jika ada border */
+}
+
 
 /* Default Navbar (Transparan) */
+
 .navbar {
     background-color: transparent;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -15,9 +54,9 @@
 
 /* Navbar Saat Scroll atau Halaman dengan enable_scroll_nav = false */
 .navbar-scrolled {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(88, 102, 236);
     backdrop-filter: blur(10px);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow:white;
 }
 
 /* Link Default */
@@ -39,6 +78,78 @@
     color: rgba(0, 0, 0, 1);/* Saat scrolled */
 }
 
+.navbar-nav .nav-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+    /* Change color on hover */
+    transform: translateY(-5px);
+    /* Hover effect - move the link slightly up */
+}
+
+
+/* Hamburger */
+
+.hamburger .line {
+    width: 50px;
+    height: 5px;
+    background-color: #ecf0f1;
+    display: block;
+    margin: 8px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+/* NINE */
+#hamburger-9 {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+#hamburger-9.is-active {
+    transform: rotate(45deg);
+}
+
+#hamburger-9:before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    border: 5px solid transparent;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+#hamburger-9.is-active:before {
+    border: 5px solid #ecf0f1;
+}
+
+#hamburger-9.is-active .line {
+    width: 35px;
+}
+
+#hamburger-9.is-active .line:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger-9.is-active .line:nth-child(1) {
+    transform: translateY(13px);
+}
+
+#hamburger-9.is-active .line:nth-child(3) {
+    transform: translateY(-13px) rotate(90deg);
+}
+
+/* END HAMBURGER */
+
 
 /* Style footer */
 #footer a img {
@@ -53,3 +164,45 @@
 /* end Style footer */
 
 
+html, body {
+    overflow-x: hidden; 
+  }
+  
+  .footer {
+    margin-bottom: 90px;
+  }
+  
+  
+  
+  
+
+   /* Animation for floating image */
+   @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .floating-img {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  
+#jumbotron{
+    height: 100vh; 
+    background-color:#5866ec; 
+    color: white; 
+    overflow: hidden;
+} 
+
+
+
+ 
+
+  

@@ -36,7 +36,7 @@ preview_map.save("static/preview/preview_map.html")
 
 @app.route("/")
 def home():
-    return render_template("main/home.html", enable_scroll_nav=True)
+    return render_template("main/home.html", enable_scroll_nav=False)
 
 
 @app.route("/map", methods=["GET", "POST"])
@@ -68,16 +68,26 @@ def map():
     places = Place.query.all()
     for place in places:
         popup_content = f"""
-        <b>{place.name}</b><br>
-        {place.description}<br>
-        <img src='{place.image_url}' width='200'><br>
-        Rating: ⭐⭐⭐⭐⭐ 5/5<br>
-        Harga: {place.price_range}
-        """
+    <div style="font-family: Arial, sans-serif; width: 300px; padding: 10px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); background-color: #f9f9f9;">
+        <div style=" margin-bottom: 10px;">
+            <h3 style="margin: 0; color: #2c3e50;">{place.name}</h3>
+            <p style="font-size: 14px; color: #7f8c8d;">{place.description}</p>
+        </div>
+        <div style="text-align: center; margin-bottom: 10px;">
+            <img src="{place.image_url}" alt="Image of {place.name}" 
+                 style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px;">
+        </div>
+        <div style="margin-top: 10px;">
+            <p style="margin: 5px 0; font-size: 14px; color: #34495e;"><b>Rating:</b> ⭐⭐⭐⭐⭐ 5/5</p>
+            <p style="margin: 5px 0; font-size: 14px; color: #34495e;"><b>Harga:</b> {place.price_range}</p>
+        </div>
+    </div>
+    """
         folium.Marker([place.lat, place.lon], popup=popup_content).add_to(
             marker_cluster
         )
     preview_map.save("static/preview/preview_map.html")
+
     return render_template("main/map.html", enable_scroll_nav=False, places=places)
 
 
@@ -89,15 +99,21 @@ def update_preview_map():
     places = Place.query.all()
     for place in places:
         popup_content = f"""
-        <b>{place.name}</b><br>
-        {place.description}<br>
-        <img src='{place.image_url}' width='200'><br>
-        Rating: ⭐⭐⭐⭐⭐ 5/5<br>
-        Harga: {place.price_range}
-        """
-        folium.Marker([place.lat, place.lon], popup=popup_content).add_to(
-            marker_cluster
-        )
+    <div style="font-family: Arial, sans-serif; width: 300px; padding: 10px; border-radius: 10px; box-shadow: 0px 4px 10px rgba(0,0,0,0.2); background-color: #f9f9f9;">
+        <div style=" margin-bottom: 10px;">
+            <h3 style="margin: 0; color: #2c3e50;">{place.name}</h3>
+            <p style="font-size: 14px; color: #7f8c8d;">{place.description}</p>
+        </div>
+        <div style="text-align: center; margin-bottom: 10px;">
+            <img src="{place.image_url}" alt="Image of {place.name}" 
+                 style="width: 100%; max-height: 150px; object-fit: cover; border-radius: 8px;">
+        </div>
+        <div style="margin-top: 10px;">
+            <p style="margin: 5px 0; font-size: 14px; color: #34495e;"><b>Rating:</b> ⭐⭐⭐⭐⭐ 5/5</p>
+            <p style="margin: 5px 0; font-size: 14px; color: #34495e;"><b>Harga:</b> {place.price_range}</p>
+        </div>
+    </div>
+    """
 
     updated_map.save("static/preview/preview_map.html")
 
@@ -128,12 +144,12 @@ def delete_place():
 
 
 # UNTUK MERESET DATA DARI DB
-# @app.cli.command("reset_database")
-# def reset_database():
-#     """Menghapus seluruh tabel dan datanya."""
-#     db.drop_all()  # Menghapus semua tabel
-#     db.create_all()  # Membuat ulang tabel sesuai model
-#     print("Database berhasil di-reset.")
+@app.cli.command("reset_database")
+def reset_database():
+    """Menghapus seluruh tabel dan datanya."""
+    db.drop_all()  # Menghapus semua tabel
+    db.create_all()  # Membuat ulang tabel sesuai model
+    print("Database berhasil di-reset.")
 
 
 if __name__ == "__main__":
